@@ -457,6 +457,7 @@
 				D87C8D0D19758B2100244CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D87C8D0E19758B2100244CB8 /* Build configuration list for PBXNativeTarget "D2Tests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				D87C8D1019758B2100244CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

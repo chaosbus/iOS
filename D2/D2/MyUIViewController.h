@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyUIViewController : UIViewController
+@interface MyUIViewController : UIViewController <UIAlertViewDelegate>
+
+
+- (IBAction)testAlertView:(id)sender;
+- (IBAction)testActionSheet:(id)sender;
 
 @end

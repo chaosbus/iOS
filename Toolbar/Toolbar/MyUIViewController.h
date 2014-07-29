@@ -10,4 +10,6 @@
 
 @interface MyUIViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UILabel *labelNavi;
 @end

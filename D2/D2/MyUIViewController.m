@@ -26,4 +26,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)testAlertView:(id)sender
+{
+    UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Alert Title" message:@"get out of my box" delegate:self cancelButtonTitle:@"cancelBut" otherButtonTitles:@"otherBut", nil];
+    
+    [alertView show];
+}
+
+
+#pragma mark-- 
+- (void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    NSLog(@"buttonIndex = %i", buttonIndex);
+}
+
+
 @end

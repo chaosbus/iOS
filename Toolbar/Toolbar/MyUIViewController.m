@@ -26,4 +26,25 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)save:(id)sender
+{
+    self.label.text = @"click save";
+}
+
+- (IBAction)open:(id)sender
+{
+    self.label.text = @"click open";
+}
+
+- (IBAction)saveNavi:(id)sender
+{
+    self.labelNavi.text = @"navi SAVE";
+}
+
+- (IBAction)addNave:(id)sender
+{
+    self.labelNavi.text = @"navi ADD";
+}
+
 @end
