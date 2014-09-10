@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TiebaCollectionCell : UICollectionViewCell
-
-@property (nonatomic, weak) IBOutlet UILabel *barName;
+@property (weak, nonatomic) IBOutlet UILabel *tiebaLevel;
+@property (weak, nonatomic) IBOutlet UILabel *tiebaName;
 @end

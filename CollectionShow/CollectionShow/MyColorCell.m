@@ -1,30 +1,29 @@
 //
-//  TiebaCollectionCell.m
-//  贴吧
+//  MyColorCell.m
+//  CollectionShow
 //
 //  Created by Joe on 14-9-10.
 //  Copyright (c) 2014年 Joe. All rights reserved.
 //
 
-#import "TiebaCollectionCell.h"
+#import "MyColorCell.h"
 
-@implementation TiebaCollectionCell
+@implementation MyColorCell
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        // Initialization code
         
         // 初始化时加载collectionCell.xib文件
-        NSArray *arrayOfViews = [[NSBundle mainBundle] loadNibNamed:@"TiebaCollectionCell" owner:self options:nil];
+        NSArray *arrayOfViews = [[NSBundle mainBundle] loadNibNamed:@"MyColorCell" owner:self options:nil];
         
         if (!arrayOfViews) {
-            NSLog(@"----- null -----");
+            NSLog(@"ooooooooo");
         } else
             NSLog(@"----- %i ", arrayOfViews.count);
-        
+
         // 如果路径不存在，return nil
         if (arrayOfViews.count < 1)
         {

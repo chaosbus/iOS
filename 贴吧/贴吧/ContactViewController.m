@@ -31,12 +31,25 @@
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
     self.navigationItem.title = @"联系人";
+    
+    [self addBarButtonItem];
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)addBarButtonItem
+{
+    UIBarButtonItem *rightBtn = [[UIBarButtonItem alloc]
+                                 initWithTitle:@"添加好友"
+                                 style:UIBarButtonItemStyleBordered
+                                 target:self
+                                 action:nil];
+    self.navigationItem.rightBarButtonItem = rightBtn;
 }
 
 @end

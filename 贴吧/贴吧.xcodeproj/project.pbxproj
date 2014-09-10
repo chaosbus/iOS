@@ -27,6 +27,7 @@
 		D831074319BEF3E0007BD32B /* JinbaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D831074119BEF3E0007BD32B /* JinbaViewController.xib */; };
 		D831074719BEF437007BD32B /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D831074519BEF437007BD32B /* MoreViewController.m */; };
 		D831074819BEF437007BD32B /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D831074619BEF437007BD32B /* MoreViewController.xib */; };
+		D835694819C0781200D72109 /* TiebaCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D835694719C0781200D72109 /* TiebaCollectionCell.xib */; };
 		D84312AF19BFEFBD0009F2B9 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84312AD19BFEFBD0009F2B9 /* MessageViewController.m */; };
 		D84312B019BFEFBD0009F2B9 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84312AE19BFEFBD0009F2B9 /* MessageViewController.xib */; };
 		D84312B419BFEFCC0009F2B9 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84312B219BFEFCC0009F2B9 /* ContactViewController.m */; };
@@ -90,6 +91,7 @@
 		D831074419BEF437007BD32B /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
 		D831074519BEF437007BD32B /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
 		D831074619BEF437007BD32B /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		D835694719C0781200D72109 /* TiebaCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TiebaCollectionCell.xib; sourceTree = "<group>"; };
 		D84312AC19BFEFBD0009F2B9 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
 		D84312AD19BFEFBD0009F2B9 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 		D84312AE19BFEFBD0009F2B9 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
@@ -177,18 +179,13 @@
 		D831070119BEE4DE007BD32B /* 贴吧 */ = {
 			isa = PBXGroup;
 			children = (
-				D84312CB19C02A000009F2B9 /* image */,
+				D835694919C0A19600D72109 /* Control */,
 				D84312C019BFFF320009F2B9 /* Cell */,
 				D831073019BEE610007BD32B /* 登陆 */,
 				D831073619BEF116007BD32B /* 主界面 */,
-				D831070A19BEE4DE007BD32B /* TBAppDelegate.h */,
-				D831070B19BEE4DE007BD32B /* TBAppDelegate.m */,
+				D84312CB19C02A000009F2B9 /* image */,
 				D831070D19BEE4DE007BD32B /* Images.xcassets */,
 				D831070219BEE4DE007BD32B /* Supporting Files */,
-				D84312BB19BFF0F90009F2B9 /* TBTabBarViewController.h */,
-				D84312BC19BFF0F90009F2B9 /* TBTabBarViewController.m */,
-				D831072A19BEE51B007BD32B /* TBNavViewController.h */,
-				D831072B19BEE51B007BD32B /* TBNavViewController.m */,
 			);
 			path = "贴吧";
 			sourceTree = "<group>";
@@ -297,6 +294,19 @@
 			name = "更多";
 			sourceTree = "<group>";
 		};
+		D835694919C0A19600D72109 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				D831070A19BEE4DE007BD32B /* TBAppDelegate.h */,
+				D831070B19BEE4DE007BD32B /* TBAppDelegate.m */,
+				D84312BB19BFF0F90009F2B9 /* TBTabBarViewController.h */,
+				D84312BC19BFF0F90009F2B9 /* TBTabBarViewController.m */,
+				D831072A19BEE51B007BD32B /* TBNavViewController.h */,
+				D831072B19BEE51B007BD32B /* TBNavViewController.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
 		D84312C019BFFF320009F2B9 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +318,7 @@
 				D84312C819C002310009F2B9 /* AboutMeCell.xib */,
 				D84312D619C033FA0009F2B9 /* TiebaCollectionCell.h */,
 				D84312D719C033FA0009F2B9 /* TiebaCollectionCell.m */,
+				D835694719C0781200D72109 /* TiebaCollectionCell.xib */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -412,6 +423,7 @@
 				D831070E19BEE4DE007BD32B /* Images.xcassets in Resources */,
 				D84312D319C02CE80009F2B9 /* 1.png in Resources */,
 				D831073519BEE648007BD32B /* LoginView.xib in Resources */,
+				D835694819C0781200D72109 /* TiebaCollectionCell.xib in Resources */,
 				D831074319BEF3E0007BD32B /* JinbaViewController.xib in Resources */,
 				D84312B519BFEFCC0009F2B9 /* ContactViewController.xib in Resources */,
 				D84312CE19C02A4E0009F2B9 /* 3.jpeg in Resources */,

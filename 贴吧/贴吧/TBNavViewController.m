@@ -52,6 +52,7 @@
 {
     // 1.取出设置主题的对象
     UINavigationBar *navBar = [UINavigationBar appearance];
+    UIBarButtonItem *barBtnItem = [UIBarButtonItem appearance];
     
     // 2.设置导航栏的背景图片
     NSString *navBarBg = nil;
@@ -65,20 +66,24 @@
     [navBar setBackgroundImage:[UIImage imageNamed:navBarBg] forBarMetrics:UIBarMetricsDefault];
     
     // 3.标题
-//    [navBar setTitleTextAttributes:@{UITextAttributeTextColor : [UIColor whiteColor]}];
-    [navBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
-                                    [UIColor whiteColor], UITextAttributeTextColor,
-                                    [UIColor grayColor],   UITextAttributeTextShadowColor,
-                                    [NSValue valueWithUIOffset:UIOffsetMake(1, 1)], UITextAttributeTextShadowOffset,
-//                                    [UIFont fontWithName:@"Arial-Bold" size:0.0],   UITextAttributeFont,
-                                    nil]];
-    [navBar setBarTintColor:[UIColor blackColor]];
+    NSDictionary *textAttributesNavBar = [NSDictionary dictionaryWithObjectsAndKeys:
+                                          [UIColor whiteColor], UITextAttributeTextColor,
+//                                          [UIColor grayColor], UITextAttributeTextShadowColor,
+//                                          [NSValue valueWithUIOffset:UIOffsetMake(1, 1)], UITextAttributeTextShadowOffset,
+                                          [UIFont fontWithName:@"Arial-Bold" size:0.0], UITextAttributeFont,
+                                          nil];
     
-//    UINavigationController *navView;
-//    if( ([[[UIDevice currentDevice] systemVersion] doubleValue]>=7.0)) {
-//        navView.edgesForExtendedLayout = UIRectEdgeNone;
-//        
-//    }
+
+    NSDictionary *textAttributesBarBtnItem = [NSDictionary dictionaryWithObjectsAndKeys:
+                                              [UIColor whiteColor], UITextAttributeTextColor,
+//                                              [UIColor greenColor], UITextAttributeTextShadowColor,
+//                                              [NSValue valueWithUIOffset:UIOffsetMake(1, 1)], UITextAttributeTextShadowOffset,
+                                              [UIFont fontWithName:@"AmericanTypewriter" size:13], UITextAttributeFont,
+                                              nil];
+    
+    [navBar setTitleTextAttributes:textAttributesNavBar];
+    [navBar setBarTintColor:[UIColor blackColor]];
+    [barBtnItem setTitleTextAttributes:textAttributesBarBtnItem forState:UIControlStateNormal];
 }
 
 #pragma mark 控制状态栏的样式
