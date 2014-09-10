@@ -8,10 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyUIViewController : UITableViewController
+@interface MyUIViewController : UITableViewController <UITableViewDataSource, UIAlertViewDelegate>
 
 
-@property (nonatomic, strong) NSArray *listTeams;
+@property (nonatomic, strong) NSMutableArray *listTeams;
+@property (nonatomic, strong) NSMutableArray *delList;
 
+- (IBAction)editTeam:(id)sender;
+
+- (IBAction)delTeam:(id)sender;
+- (IBAction)addTeam:(id)sender;
 
 @end

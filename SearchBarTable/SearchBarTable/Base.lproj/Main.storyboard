@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="oWy-1z-b9p">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="eaw-bu-QUe">
+            <objects>
+                <viewController id="oWy-1z-b9p" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q9G-wU-rqR"/>
+                        <viewControllerLayoutGuide type="bottom" id="Awg-bq-FKv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="plM-ns-48J">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="6Dg-Og-NtX">
+                                <rect key="frame" x="0.0" y="106" width="320" height="374"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="查询" showsScopeBar="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DER-eF-Mhv">
+                                <rect key="frame" x="0.0" y="62" width="320" height="88"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Chinese</string>
+                                    <string>English</string>
+                                </scopeButtonTitles>
+                                <connections>
+                                    <outlet property="delegate" destination="oWy-1z-b9p" id="9oR-rB-cLc"/>
+                                </connections>
+                            </searchBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WzU-Sv-w9W">
+                                <rect key="frame" x="0.0" y="18" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="通讯录" id="VfU-eb-gPd"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="HU9-N3-Tf1" id="Dct-K3-oxF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TUX-Ua-dJK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="HU9-N3-Tf1">
+                    <connections>
+                        <outlet property="delegate" destination="oWy-1z-b9p" id="N1d-6Z-ipn"/>
+                        <outlet property="searchBar" destination="DER-eF-Mhv" id="CGf-mO-K78"/>
+                        <outlet property="searchContentsController" destination="oWy-1z-b9p" id="lLT-Ad-URm"/>
+                        <outlet property="searchResultsDataSource" destination="oWy-1z-b9p" id="ZXP-dB-Av4"/>
+                        <outlet property="searchResultsDelegate" destination="oWy-1z-b9p" id="fJt-rR-A0J"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="-18" y="-63"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

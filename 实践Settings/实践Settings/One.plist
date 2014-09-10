@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A</key>
+	<array>
+		<string>飞行模式</string>
+		<string>无线局域网</string>
+		<string>蓝牙</string>
+		<string>蜂窝移动网络</string>
+		<string>个人热点</string>
+		<string>运营商</string>
+	</array>
+	<key>B</key>
+	<array>
+		<string>通知中心</string>
+		<string>控制中心</string>
+		<string>勿扰模式</string>
+	</array>
+	<key>C</key>
+	<array>
+		<string>通用</string>
+		<string>墙纸与亮度</string>
+		<string>声音</string>
+		<string>密码</string>
+		<string>隐私</string>
+	</array>
+	<key>D</key>
+	<array>
+		<string>iCloud</string>
+		<string>邮件、通讯录、日历</string>
+		<string>备忘录</string>
+	</array>
+</dict>
+</plist>

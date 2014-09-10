@@ -51,12 +51,19 @@
 #pragma mark --UITableViewDataSource 协议方法
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSLog(@"listTeams count : %lu", (unsigned long)[self.listTeams count]);
+    NSLog(@"listTeams count : %lu. section : %ld", (unsigned long)[self.listTeams count], (long)section);
     return [self.listTeams count];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView indentationLevelForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    NSLog(@"NSIndexPath : %@", indexPath);
+    
     static NSString *CellIdentifier = @"Cell";
     CustomCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     //    if (cell == nil) {
@@ -67,7 +74,7 @@
     NSDictionary *rowDict = [self.listTeams objectAtIndex:row];
     cell.name.text =  [rowDict objectForKey:@"name"];
     
-    NSLog(@"text %@", [rowDict objectForKey:@"name"]);
+    NSLog(@"text : %@", [rowDict objectForKey:@"name"]);
     
     NSString *imagePath = [rowDict objectForKey:@"image"];
     imagePath = [imagePath stringByAppendingString:@".png"];

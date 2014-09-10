@@ -40,8 +40,27 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="3SP-rA-eJb" id="lvg-GX-CCN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="wDF-gP-PTf">
+                    <connections>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="Utq-uE-q2g"/>
+                        <outlet property="searchContentsController" destination="vXZ-lx-hvc" id="l4J-Nv-SVD"/>
+                        <outlet property="searchResultsDataSource" destination="vXZ-lx-hvc" id="MQo-ii-W4J"/>
+                        <outlet property="searchResultsDelegate" destination="vXZ-lx-hvc" id="92E-aH-c0m"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="3SP-rA-eJb">
+                    <connections>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="JKb-0i-Vso"/>
+                        <outlet property="searchContentsController" destination="vXZ-lx-hvc" id="OKX-wY-zXq"/>
+                        <outlet property="searchResultsDataSource" destination="vXZ-lx-hvc" id="aez-Np-yBN"/>
+                        <outlet property="searchResultsDelegate" destination="vXZ-lx-hvc" id="SSb-9O-Uu2"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
         </scene>
     </scenes>

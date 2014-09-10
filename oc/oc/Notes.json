@@ -1,0 +1,7 @@
+{"ResultCode":0,
+    "Record":[
+              {"ID":"1", "CDATE":"2014-8-1", "Content":"asdfasdf", "UserID":"Joe"},
+              {"ID":"2", "CDATE":"2014-8-1", "Content":"asdfasdf", "UserID":"Joe"},
+              {"ID":"3", "CDATE":"2014-8-1", "Content":"asdfasdf", "UserID":"Joe"},
+              {"ID":"4", "CDATE":"2014-8-1", "Content":"asdfasdf", "UserID":"Joe"}, ]
+}

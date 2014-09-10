@@ -526,7 +526,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomCell/CustomCell-Prefix.pch";
 				INFOPLIST_FILE = "CustomCell/CustomCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -539,7 +541,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomCell/CustomCell-Prefix.pch";
 				INFOPLIST_FILE = "CustomCell/CustomCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -603,6 +607,7 @@
 				D837C3301986375A0013239F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D837C3311986375A0013239F /* Build configuration list for PBXNativeTarget "CustomCellTests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +616,7 @@
 				D837C3331986375A0013239F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

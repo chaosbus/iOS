@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D830C78A1990A88100457ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D830C7891990A88100457ED7 /* Foundation.framework */; };
+		D830C78C1990A88100457ED7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D830C78B1990A88100457ED7 /* CoreGraphics.framework */; };
+		D830C78E1990A88100457ED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D830C78D1990A88100457ED7 /* UIKit.framework */; };
+		D830C7941990A88100457ED7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D830C7921990A88100457ED7 /* InfoPlist.strings */; };
+		D830C7961990A88100457ED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C7951990A88100457ED7 /* main.m */; };
+		D830C79A1990A88100457ED7 /* MyUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C7991990A88100457ED7 /* MyUIAppDelegate.m */; };
+		D830C79C1990A88100457ED7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D830C79B1990A88100457ED7 /* Images.xcassets */; };
+		D830C7A31990A88100457ED7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D830C7A21990A88100457ED7 /* XCTest.framework */; };
+		D830C7A41990A88100457ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D830C7891990A88100457ED7 /* Foundation.framework */; };
+		D830C7A51990A88100457ED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D830C78D1990A88100457ED7 /* UIKit.framework */; };
+		D830C7AD1990A88100457ED7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D830C7AB1990A88100457ED7 /* InfoPlist.strings */; };
+		D830C7AF1990A88100457ED7 /* UITabBar____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C7AE1990A88100457ED7 /* UITabBar____Tests.m */; };
+		D830C7BA1990A8D500457ED7 /* TabBarContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C7B91990A8D500457ED7 /* TabBarContainer.m */; };
+		D838799419B8126F0067F8FB /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = D838798A19B8126F0067F8FB /* 111.png */; };
+		D838799519B8126F0067F8FB /* Algeria.png in Resources */ = {isa = PBXBuildFile; fileRef = D838798B19B8126F0067F8FB /* Algeria.png */; };
+		D838799619B8126F0067F8FB /* Argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = D838798C19B8126F0067F8FB /* Argentina.png */; };
+		D838799719B8126F0067F8FB /* Chile.png in Resources */ = {isa = PBXBuildFile; fileRef = D838798D19B8126F0067F8FB /* Chile.png */; };
+		D838799819B8126F0067F8FB /* CoteDIvoire.png in Resources */ = {isa = PBXBuildFile; fileRef = D838798E19B8126F0067F8FB /* CoteDIvoire.png */; };
+		D838799919B8126F0067F8FB /* Holland.png in Resources */ = {isa = PBXBuildFile; fileRef = D838798F19B8126F0067F8FB /* Holland.png */; };
+		D838799A19B8126F0067F8FB /* Honduras.png in Resources */ = {isa = PBXBuildFile; fileRef = D838799019B8126F0067F8FB /* Honduras.png */; };
+		D838799B19B8126F0067F8FB /* Mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = D838799119B8126F0067F8FB /* Mexico.png */; };
+		D838799C19B8126F0067F8FB /* NewZealand.png in Resources */ = {isa = PBXBuildFile; fileRef = D838799219B8126F0067F8FB /* NewZealand.png */; };
+		D838799D19B8126F0067F8FB /* Nigeria.png in Resources */ = {isa = PBXBuildFile; fileRef = D838799319B8126F0067F8FB /* Nigeria.png */; };
+		D86B18B11990AB120097929A /* Bar1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86B18AF1990AB120097929A /* Bar1ViewController.m */; };
+		D86B18B21990AB120097929A /* Bar1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D86B18B01990AB120097929A /* Bar1ViewController.xib */; };
+		D86B18B61990AB1F0097929A /* Bar2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86B18B41990AB1F0097929A /* Bar2ViewController.m */; };
+		D86B18B71990AB1F0097929A /* Bar2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D86B18B51990AB1F0097929A /* Bar2ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D830C7A61990A88100457ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D830C77E1990A88100457ED7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D830C7851990A88100457ED7;
+			remoteInfo = "UITabBar动态添加";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D830C7861990A88100457ED7 /* UITabBar动态添加.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITabBar动态添加.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830C7891990A88100457ED7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D830C78B1990A88100457ED7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D830C78D1990A88100457ED7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D830C7911990A88100457ED7 /* UITabBar动态添加-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITabBar动态添加-Info.plist"; sourceTree = "<group>"; };
+		D830C7931990A88100457ED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D830C7951990A88100457ED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D830C7971990A88100457ED7 /* UITabBar动态添加-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar动态添加-Prefix.pch"; sourceTree = "<group>"; };
+		D830C7981990A88100457ED7 /* MyUIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUIAppDelegate.h; sourceTree = "<group>"; };
+		D830C7991990A88100457ED7 /* MyUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUIAppDelegate.m; sourceTree = "<group>"; };
+		D830C79B1990A88100457ED7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D830C7A11990A88100457ED7 /* UITabBar动态添加Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITabBar动态添加Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830C7A21990A88100457ED7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D830C7AA1990A88100457ED7 /* UITabBar动态添加Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITabBar动态添加Tests-Info.plist"; sourceTree = "<group>"; };
+		D830C7AC1990A88100457ED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D830C7AE1990A88100457ED7 /* UITabBar____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar____Tests.m"; sourceTree = "<group>"; };
+		D830C7B81990A8D500457ED7 /* TabBarContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarContainer.h; sourceTree = "<group>"; };
+		D830C7B91990A8D500457ED7 /* TabBarContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarContainer.m; sourceTree = "<group>"; };
+		D838798A19B8126F0067F8FB /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
+		D838798B19B8126F0067F8FB /* Algeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Algeria.png; sourceTree = "<group>"; };
+		D838798C19B8126F0067F8FB /* Argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Argentina.png; sourceTree = "<group>"; };
+		D838798D19B8126F0067F8FB /* Chile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chile.png; sourceTree = "<group>"; };
+		D838798E19B8126F0067F8FB /* CoteDIvoire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoteDIvoire.png; sourceTree = "<group>"; };
+		D838798F19B8126F0067F8FB /* Holland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Holland.png; sourceTree = "<group>"; };
+		D838799019B8126F0067F8FB /* Honduras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Honduras.png; sourceTree = "<group>"; };
+		D838799119B8126F0067F8FB /* Mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mexico.png; sourceTree = "<group>"; };
+		D838799219B8126F0067F8FB /* NewZealand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealand.png; sourceTree = "<group>"; };
+		D838799319B8126F0067F8FB /* Nigeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nigeria.png; sourceTree = "<group>"; };
+		D86B18AE1990AB120097929A /* Bar1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar1ViewController.h; sourceTree = "<group>"; };
+		D86B18AF1990AB120097929A /* Bar1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar1ViewController.m; sourceTree = "<group>"; };
+		D86B18B01990AB120097929A /* Bar1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Bar1ViewController.xib; sourceTree = "<group>"; };
+		D86B18B31990AB1F0097929A /* Bar2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar2ViewController.h; sourceTree = "<group>"; };
+		D86B18B41990AB1F0097929A /* Bar2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar2ViewController.m; sourceTree = "<group>"; };
+		D86B18B51990AB1F0097929A /* Bar2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Bar2ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D830C7831990A88100457ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830C78C1990A88100457ED7 /* CoreGraphics.framework in Frameworks */,
+				D830C78E1990A88100457ED7 /* UIKit.framework in Frameworks */,
+				D830C78A1990A88100457ED7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830C79E1990A88100457ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830C7A31990A88100457ED7 /* XCTest.framework in Frameworks */,
+				D830C7A51990A88100457ED7 /* UIKit.framework in Frameworks */,
+				D830C7A41990A88100457ED7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D830C77D1990A88100457ED7 = {
+			isa = PBXGroup;
+			children = (
+				D830C78F1990A88100457ED7 /* UITabBar动态添加 */,
+				D830C7A81990A88100457ED7 /* UITabBar动态添加Tests */,
+				D830C7881990A88100457ED7 /* Frameworks */,
+				D830C7871990A88100457ED7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D830C7871990A88100457ED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D830C7861990A88100457ED7 /* UITabBar动态添加.app */,
+				D830C7A11990A88100457ED7 /* UITabBar动态添加Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D830C7881990A88100457ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D830C7891990A88100457ED7 /* Foundation.framework */,
+				D830C78B1990A88100457ED7 /* CoreGraphics.framework */,
+				D830C78D1990A88100457ED7 /* UIKit.framework */,
+				D830C7A21990A88100457ED7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D830C78F1990A88100457ED7 /* UITabBar动态添加 */ = {
+			isa = PBXGroup;
+			children = (
+				D838798919B8120C0067F8FB /* png */,
+				D830C7981990A88100457ED7 /* MyUIAppDelegate.h */,
+				D830C7991990A88100457ED7 /* MyUIAppDelegate.m */,
+				D830C7B81990A8D500457ED7 /* TabBarContainer.h */,
+				D830C7B91990A8D500457ED7 /* TabBarContainer.m */,
+				D830C79B1990A88100457ED7 /* Images.xcassets */,
+				D830C7901990A88100457ED7 /* Supporting Files */,
+				D86B18AE1990AB120097929A /* Bar1ViewController.h */,
+				D86B18AF1990AB120097929A /* Bar1ViewController.m */,
+				D86B18B01990AB120097929A /* Bar1ViewController.xib */,
+				D86B18B31990AB1F0097929A /* Bar2ViewController.h */,
+				D86B18B41990AB1F0097929A /* Bar2ViewController.m */,
+				D86B18B51990AB1F0097929A /* Bar2ViewController.xib */,
+			);
+			path = "UITabBar动态添加";
+			sourceTree = "<group>";
+		};
+		D830C7901990A88100457ED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D830C7911990A88100457ED7 /* UITabBar动态添加-Info.plist */,
+				D830C7921990A88100457ED7 /* InfoPlist.strings */,
+				D830C7951990A88100457ED7 /* main.m */,
+				D830C7971990A88100457ED7 /* UITabBar动态添加-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D830C7A81990A88100457ED7 /* UITabBar动态添加Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D830C7AE1990A88100457ED7 /* UITabBar____Tests.m */,
+				D830C7A91990A88100457ED7 /* Supporting Files */,
+			);
+			path = "UITabBar动态添加Tests";
+			sourceTree = "<group>";
+		};
+		D830C7A91990A88100457ED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D830C7AA1990A88100457ED7 /* UITabBar动态添加Tests-Info.plist */,
+				D830C7AB1990A88100457ED7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D838798919B8120C0067F8FB /* png */ = {
+			isa = PBXGroup;
+			children = (
+				D838798A19B8126F0067F8FB /* 111.png */,
+				D838798B19B8126F0067F8FB /* Algeria.png */,
+				D838798C19B8126F0067F8FB /* Argentina.png */,
+				D838798D19B8126F0067F8FB /* Chile.png */,
+				D838798E19B8126F0067F8FB /* CoteDIvoire.png */,
+				D838798F19B8126F0067F8FB /* Holland.png */,
+				D838799019B8126F0067F8FB /* Honduras.png */,
+				D838799119B8126F0067F8FB /* Mexico.png */,
+				D838799219B8126F0067F8FB /* NewZealand.png */,
+				D838799319B8126F0067F8FB /* Nigeria.png */,
+			);
+			name = png;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D830C7851990A88100457ED7 /* UITabBar动态添加 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830C7B21990A88100457ED7 /* Build configuration list for PBXNativeTarget "UITabBar动态添加" */;
+			buildPhases = (
+				D830C7821990A88100457ED7 /* Sources */,
+				D830C7831990A88100457ED7 /* Frameworks */,
+				D830C7841990A88100457ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITabBar动态添加";
+			productName = "UITabBar动态添加";
+			productReference = D830C7861990A88100457ED7 /* UITabBar动态添加.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D830C7A01990A88100457ED7 /* UITabBar动态添加Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830C7B51990A88100457ED7 /* Build configuration list for PBXNativeTarget "UITabBar动态添加Tests" */;
+			buildPhases = (
+				D830C79D1990A88100457ED7 /* Sources */,
+				D830C79E1990A88100457ED7 /* Frameworks */,
+				D830C79F1990A88100457ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D830C7A71990A88100457ED7 /* PBXTargetDependency */,
+			);
+			name = "UITabBar动态添加Tests";
+			productName = "UITabBar动态添加Tests";
+			productReference = D830C7A11990A88100457ED7 /* UITabBar动态添加Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D830C77E1990A88100457ED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyUI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Joe;
+				TargetAttributes = {
+					D830C7A01990A88100457ED7 = {
+						TestTargetID = D830C7851990A88100457ED7;
+					};
+				};
+			};
+			buildConfigurationList = D830C7811990A88100457ED7 /* Build configuration list for PBXProject "UITabBar动态添加" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D830C77D1990A88100457ED7;
+			productRefGroup = D830C7871990A88100457ED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D830C7851990A88100457ED7 /* UITabBar动态添加 */,
+				D830C7A01990A88100457ED7 /* UITabBar动态添加Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D830C7841990A88100457ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D838799919B8126F0067F8FB /* Holland.png in Resources */,
+				D830C7941990A88100457ED7 /* InfoPlist.strings in Resources */,
+				D838799719B8126F0067F8FB /* Chile.png in Resources */,
+				D86B18B71990AB1F0097929A /* Bar2ViewController.xib in Resources */,
+				D838799C19B8126F0067F8FB /* NewZealand.png in Resources */,
+				D838799A19B8126F0067F8FB /* Honduras.png in Resources */,
+				D838799619B8126F0067F8FB /* Argentina.png in Resources */,
+				D838799D19B8126F0067F8FB /* Nigeria.png in Resources */,
+				D838799B19B8126F0067F8FB /* Mexico.png in Resources */,
+				D830C79C1990A88100457ED7 /* Images.xcassets in Resources */,
+				D838799519B8126F0067F8FB /* Algeria.png in Resources */,
+				D838799419B8126F0067F8FB /* 111.png in Resources */,
+				D86B18B21990AB120097929A /* Bar1ViewController.xib in Resources */,
+				D838799819B8126F0067F8FB /* CoteDIvoire.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830C79F1990A88100457ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830C7AD1990A88100457ED7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D830C7821990A88100457ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86B18B11990AB120097929A /* Bar1ViewController.m in Sources */,
+				D830C7BA1990A8D500457ED7 /* TabBarContainer.m in Sources */,
+				D830C79A1990A88100457ED7 /* MyUIAppDelegate.m in Sources */,
+				D830C7961990A88100457ED7 /* main.m in Sources */,
+				D86B18B61990AB1F0097929A /* Bar2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830C79D1990A88100457ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830C7AF1990A88100457ED7 /* UITabBar____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D830C7A71990A88100457ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D830C7851990A88100457ED7 /* UITabBar动态添加 */;
+			targetProxy = D830C7A61990A88100457ED7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D830C7921990A88100457ED7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D830C7931990A88100457ED7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D830C7AB1990A88100457ED7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D830C7AC1990A88100457ED7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D830C7B01990A88100457ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D830C7B11990A88100457ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D830C7B31990A88100457ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITabBar动态添加/UITabBar动态添加-Prefix.pch";
+				INFOPLIST_FILE = "UITabBar动态添加/UITabBar动态添加-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D830C7B41990A88100457ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITabBar动态添加/UITabBar动态添加-Prefix.pch";
+				INFOPLIST_FILE = "UITabBar动态添加/UITabBar动态添加-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D830C7B61990A88100457ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITabBar动态添加.app/UITabBar动态添加";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITabBar动态添加/UITabBar动态添加-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UITabBar动态添加Tests/UITabBar动态添加Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D830C7B71990A88100457ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITabBar动态添加.app/UITabBar动态添加";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITabBar动态添加/UITabBar动态添加-Prefix.pch";
+				INFOPLIST_FILE = "UITabBar动态添加Tests/UITabBar动态添加Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D830C7811990A88100457ED7 /* Build configuration list for PBXProject "UITabBar动态添加" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830C7B01990A88100457ED7 /* Debug */,
+				D830C7B11990A88100457ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D830C7B21990A88100457ED7 /* Build configuration list for PBXNativeTarget "UITabBar动态添加" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830C7B31990A88100457ED7 /* Debug */,
+				D830C7B41990A88100457ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D830C7B51990A88100457ED7 /* Build configuration list for PBXNativeTarget "UITabBar动态添加Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830C7B61990A88100457ED7 /* Debug */,
+				D830C7B71990A88100457ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D830C77E1990A88100457ED7 /* Project object */;
+}

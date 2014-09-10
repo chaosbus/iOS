@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D81C2AA51991FC6D0007CB7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81C2AA41991FC6D0007CB7B /* Foundation.framework */; };
+		D81C2AA71991FC6D0007CB7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81C2AA61991FC6D0007CB7B /* CoreGraphics.framework */; };
+		D81C2AA91991FC6D0007CB7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81C2AA81991FC6D0007CB7B /* UIKit.framework */; };
+		D81C2AAF1991FC6D0007CB7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D81C2AAD1991FC6D0007CB7B /* InfoPlist.strings */; };
+		D81C2AB11991FC6D0007CB7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D81C2AB01991FC6D0007CB7B /* main.m */; };
+		D81C2AB51991FC6D0007CB7B /* MyUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D81C2AB41991FC6D0007CB7B /* MyUIAppDelegate.m */; };
+		D81C2AB71991FC6D0007CB7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81C2AB61991FC6D0007CB7B /* Images.xcassets */; };
+		D81C2ABE1991FC6D0007CB7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81C2ABD1991FC6D0007CB7B /* XCTest.framework */; };
+		D81C2ABF1991FC6D0007CB7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81C2AA41991FC6D0007CB7B /* Foundation.framework */; };
+		D81C2AC01991FC6D0007CB7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81C2AA81991FC6D0007CB7B /* UIKit.framework */; };
+		D81C2AC81991FC6D0007CB7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D81C2AC61991FC6D0007CB7B /* InfoPlist.strings */; };
+		D81C2ACA1991FC6D0007CB7B /* NaviBarControlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D81C2AC91991FC6D0007CB7B /* NaviBarControlerTests.m */; };
+		D81C2AD51991FCB70007CB7B /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81C2AD41991FCB70007CB7B /* NaviViewController.m */; };
+		D81C2AD91991FCE80007CB7B /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81C2AD71991FCE80007CB7B /* OneViewController.m */; };
+		D81C2ADA1991FCE80007CB7B /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81C2AD81991FCE80007CB7B /* OneViewController.xib */; };
+		D81C2ADE199202CD0007CB7B /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81C2ADC199202CD0007CB7B /* TwoViewController.m */; };
+		D81C2ADF199202CD0007CB7B /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81C2ADD199202CD0007CB7B /* TwoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D81C2AC11991FC6D0007CB7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81C2A991991FC6D0007CB7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81C2AA01991FC6D0007CB7B;
+			remoteInfo = NaviBarControler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D81C2AA11991FC6D0007CB7B /* NaviBarControler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviBarControler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81C2AA41991FC6D0007CB7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D81C2AA61991FC6D0007CB7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D81C2AA81991FC6D0007CB7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D81C2AAC1991FC6D0007CB7B /* NaviBarControler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NaviBarControler-Info.plist"; sourceTree = "<group>"; };
+		D81C2AAE1991FC6D0007CB7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D81C2AB01991FC6D0007CB7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D81C2AB21991FC6D0007CB7B /* NaviBarControler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NaviBarControler-Prefix.pch"; sourceTree = "<group>"; };
+		D81C2AB31991FC6D0007CB7B /* MyUIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUIAppDelegate.h; sourceTree = "<group>"; };
+		D81C2AB41991FC6D0007CB7B /* MyUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUIAppDelegate.m; sourceTree = "<group>"; };
+		D81C2AB61991FC6D0007CB7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D81C2ABC1991FC6D0007CB7B /* NaviBarControlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviBarControlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81C2ABD1991FC6D0007CB7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D81C2AC51991FC6D0007CB7B /* NaviBarControlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NaviBarControlerTests-Info.plist"; sourceTree = "<group>"; };
+		D81C2AC71991FC6D0007CB7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D81C2AC91991FC6D0007CB7B /* NaviBarControlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviBarControlerTests.m; sourceTree = "<group>"; };
+		D81C2AD31991FCB70007CB7B /* NaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviViewController.h; sourceTree = "<group>"; };
+		D81C2AD41991FCB70007CB7B /* NaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviViewController.m; sourceTree = "<group>"; };
+		D81C2AD61991FCE80007CB7B /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		D81C2AD71991FCE80007CB7B /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		D81C2AD81991FCE80007CB7B /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		D81C2ADB199202CD0007CB7B /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		D81C2ADC199202CD0007CB7B /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		D81C2ADD199202CD0007CB7B /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D81C2A9E1991FC6D0007CB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81C2AA71991FC6D0007CB7B /* CoreGraphics.framework in Frameworks */,
+				D81C2AA91991FC6D0007CB7B /* UIKit.framework in Frameworks */,
+				D81C2AA51991FC6D0007CB7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81C2AB91991FC6D0007CB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81C2ABE1991FC6D0007CB7B /* XCTest.framework in Frameworks */,
+				D81C2AC01991FC6D0007CB7B /* UIKit.framework in Frameworks */,
+				D81C2ABF1991FC6D0007CB7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D81C2A981991FC6D0007CB7B = {
+			isa = PBXGroup;
+			children = (
+				D81C2AAA1991FC6D0007CB7B /* NaviBarControler */,
+				D81C2AC31991FC6D0007CB7B /* NaviBarControlerTests */,
+				D81C2AA31991FC6D0007CB7B /* Frameworks */,
+				D81C2AA21991FC6D0007CB7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D81C2AA21991FC6D0007CB7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81C2AA11991FC6D0007CB7B /* NaviBarControler.app */,
+				D81C2ABC1991FC6D0007CB7B /* NaviBarControlerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D81C2AA31991FC6D0007CB7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D81C2AA41991FC6D0007CB7B /* Foundation.framework */,
+				D81C2AA61991FC6D0007CB7B /* CoreGraphics.framework */,
+				D81C2AA81991FC6D0007CB7B /* UIKit.framework */,
+				D81C2ABD1991FC6D0007CB7B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D81C2AAA1991FC6D0007CB7B /* NaviBarControler */ = {
+			isa = PBXGroup;
+			children = (
+				D81C2AB31991FC6D0007CB7B /* MyUIAppDelegate.h */,
+				D81C2AB41991FC6D0007CB7B /* MyUIAppDelegate.m */,
+				D81C2AD31991FCB70007CB7B /* NaviViewController.h */,
+				D81C2AD41991FCB70007CB7B /* NaviViewController.m */,
+				D81C2AB61991FC6D0007CB7B /* Images.xcassets */,
+				D81C2AAB1991FC6D0007CB7B /* Supporting Files */,
+				D81C2AD61991FCE80007CB7B /* OneViewController.h */,
+				D81C2AD71991FCE80007CB7B /* OneViewController.m */,
+				D81C2AD81991FCE80007CB7B /* OneViewController.xib */,
+				D81C2ADB199202CD0007CB7B /* TwoViewController.h */,
+				D81C2ADC199202CD0007CB7B /* TwoViewController.m */,
+				D81C2ADD199202CD0007CB7B /* TwoViewController.xib */,
+			);
+			path = NaviBarControler;
+			sourceTree = "<group>";
+		};
+		D81C2AAB1991FC6D0007CB7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D81C2AAC1991FC6D0007CB7B /* NaviBarControler-Info.plist */,
+				D81C2AAD1991FC6D0007CB7B /* InfoPlist.strings */,
+				D81C2AB01991FC6D0007CB7B /* main.m */,
+				D81C2AB21991FC6D0007CB7B /* NaviBarControler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D81C2AC31991FC6D0007CB7B /* NaviBarControlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D81C2AC91991FC6D0007CB7B /* NaviBarControlerTests.m */,
+				D81C2AC41991FC6D0007CB7B /* Supporting Files */,
+			);
+			path = NaviBarControlerTests;
+			sourceTree = "<group>";
+		};
+		D81C2AC41991FC6D0007CB7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D81C2AC51991FC6D0007CB7B /* NaviBarControlerTests-Info.plist */,
+				D81C2AC61991FC6D0007CB7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D81C2AA01991FC6D0007CB7B /* NaviBarControler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81C2ACD1991FC6D0007CB7B /* Build configuration list for PBXNativeTarget "NaviBarControler" */;
+			buildPhases = (
+				D81C2A9D1991FC6D0007CB7B /* Sources */,
+				D81C2A9E1991FC6D0007CB7B /* Frameworks */,
+				D81C2A9F1991FC6D0007CB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaviBarControler;
+			productName = NaviBarControler;
+			productReference = D81C2AA11991FC6D0007CB7B /* NaviBarControler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D81C2ABB1991FC6D0007CB7B /* NaviBarControlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81C2AD01991FC6D0007CB7B /* Build configuration list for PBXNativeTarget "NaviBarControlerTests" */;
+			buildPhases = (
+				D81C2AB81991FC6D0007CB7B /* Sources */,
+				D81C2AB91991FC6D0007CB7B /* Frameworks */,
+				D81C2ABA1991FC6D0007CB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D81C2AC21991FC6D0007CB7B /* PBXTargetDependency */,
+			);
+			name = NaviBarControlerTests;
+			productName = NaviBarControlerTests;
+			productReference = D81C2ABC1991FC6D0007CB7B /* NaviBarControlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D81C2A991991FC6D0007CB7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyUI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Joe;
+				TargetAttributes = {
+					D81C2ABB1991FC6D0007CB7B = {
+						TestTargetID = D81C2AA01991FC6D0007CB7B;
+					};
+				};
+			};
+			buildConfigurationList = D81C2A9C1991FC6D0007CB7B /* Build configuration list for PBXProject "NaviBarControler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D81C2A981991FC6D0007CB7B;
+			productRefGroup = D81C2AA21991FC6D0007CB7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D81C2AA01991FC6D0007CB7B /* NaviBarControler */,
+				D81C2ABB1991FC6D0007CB7B /* NaviBarControlerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D81C2A9F1991FC6D0007CB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81C2AAF1991FC6D0007CB7B /* InfoPlist.strings in Resources */,
+				D81C2AB71991FC6D0007CB7B /* Images.xcassets in Resources */,
+				D81C2ADA1991FCE80007CB7B /* OneViewController.xib in Resources */,
+				D81C2ADF199202CD0007CB7B /* TwoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81C2ABA1991FC6D0007CB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81C2AC81991FC6D0007CB7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D81C2A9D1991FC6D0007CB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81C2AB51991FC6D0007CB7B /* MyUIAppDelegate.m in Sources */,
+				D81C2AD51991FCB70007CB7B /* NaviViewController.m in Sources */,
+				D81C2AB11991FC6D0007CB7B /* main.m in Sources */,
+				D81C2ADE199202CD0007CB7B /* TwoViewController.m in Sources */,
+				D81C2AD91991FCE80007CB7B /* OneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81C2AB81991FC6D0007CB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81C2ACA1991FC6D0007CB7B /* NaviBarControlerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D81C2AC21991FC6D0007CB7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D81C2AA01991FC6D0007CB7B /* NaviBarControler */;
+			targetProxy = D81C2AC11991FC6D0007CB7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D81C2AAD1991FC6D0007CB7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81C2AAE1991FC6D0007CB7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D81C2AC61991FC6D0007CB7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81C2AC71991FC6D0007CB7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D81C2ACB1991FC6D0007CB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D81C2ACC1991FC6D0007CB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D81C2ACE1991FC6D0007CB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NaviBarControler/NaviBarControler-Prefix.pch";
+				INFOPLIST_FILE = "NaviBarControler/NaviBarControler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D81C2ACF1991FC6D0007CB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NaviBarControler/NaviBarControler-Prefix.pch";
+				INFOPLIST_FILE = "NaviBarControler/NaviBarControler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D81C2AD11991FC6D0007CB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NaviBarControler.app/NaviBarControler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NaviBarControler/NaviBarControler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NaviBarControlerTests/NaviBarControlerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D81C2AD21991FC6D0007CB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NaviBarControler.app/NaviBarControler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NaviBarControler/NaviBarControler-Prefix.pch";
+				INFOPLIST_FILE = "NaviBarControlerTests/NaviBarControlerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D81C2A9C1991FC6D0007CB7B /* Build configuration list for PBXProject "NaviBarControler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81C2ACB1991FC6D0007CB7B /* Debug */,
+				D81C2ACC1991FC6D0007CB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81C2ACD1991FC6D0007CB7B /* Build configuration list for PBXNativeTarget "NaviBarControler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81C2ACE1991FC6D0007CB7B /* Debug */,
+				D81C2ACF1991FC6D0007CB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D81C2AD01991FC6D0007CB7B /* Build configuration list for PBXNativeTarget "NaviBarControlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81C2AD11991FC6D0007CB7B /* Debug */,
+				D81C2AD21991FC6D0007CB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D81C2A991991FC6D0007CB7B /* Project object */;
+}

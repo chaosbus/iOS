@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D81CE5791999F1410049404D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D81CE5781999F1410049404D /* icon.png */; };
+		D82DF1DF1998ADA7005299DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF1DE1998ADA7005299DF /* Foundation.framework */; };
+		D82DF1E11998ADA7005299DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF1E01998ADA7005299DF /* CoreGraphics.framework */; };
+		D82DF1E31998ADA7005299DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF1E21998ADA7005299DF /* UIKit.framework */; };
+		D82DF1E91998ADA7005299DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D82DF1E71998ADA7005299DF /* InfoPlist.strings */; };
+		D82DF1EB1998ADA7005299DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D82DF1EA1998ADA7005299DF /* main.m */; };
+		D82DF1EF1998ADA7005299DF /* ExamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D82DF1EE1998ADA7005299DF /* ExamAppDelegate.m */; };
+		D82DF1F21998ADA7005299DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82DF1F01998ADA7005299DF /* Main.storyboard */; };
+		D82DF1F51998ADA7005299DF /* ExamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82DF1F41998ADA7005299DF /* ExamViewController.m */; };
+		D82DF1F71998ADA7005299DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82DF1F61998ADA7005299DF /* Images.xcassets */; };
+		D82DF1FE1998ADA8005299DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF1FD1998ADA8005299DF /* XCTest.framework */; };
+		D82DF1FF1998ADA8005299DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF1DE1998ADA7005299DF /* Foundation.framework */; };
+		D82DF2001998ADA8005299DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF1E21998ADA7005299DF /* UIKit.framework */; };
+		D82DF2081998ADA8005299DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D82DF2061998ADA8005299DF /* InfoPlist.strings */; };
+		D82DF20A1998ADA8005299DF /* tableView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82DF2091998ADA8005299DF /* tableView____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D82DF2011998ADA8005299DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82DF1D31998ADA7005299DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82DF1DA1998ADA7005299DF;
+			remoteInfo = "tableView混合控制";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D81CE5781999F1410049404D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../实践Settings/实践Settings/icon.png"; sourceTree = "<group>"; };
+		D82DF1DB1998ADA7005299DF /* tableView混合控制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tableView混合控制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82DF1DE1998ADA7005299DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D82DF1E01998ADA7005299DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D82DF1E21998ADA7005299DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D82DF1E61998ADA7005299DF /* tableView混合控制-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tableView混合控制-Info.plist"; sourceTree = "<group>"; };
+		D82DF1E81998ADA7005299DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D82DF1EA1998ADA7005299DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D82DF1EC1998ADA7005299DF /* tableView混合控制-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tableView混合控制-Prefix.pch"; sourceTree = "<group>"; };
+		D82DF1ED1998ADA7005299DF /* ExamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExamAppDelegate.h; sourceTree = "<group>"; };
+		D82DF1EE1998ADA7005299DF /* ExamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamAppDelegate.m; sourceTree = "<group>"; };
+		D82DF1F11998ADA7005299DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D82DF1F31998ADA7005299DF /* ExamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExamViewController.h; sourceTree = "<group>"; };
+		D82DF1F41998ADA7005299DF /* ExamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamViewController.m; sourceTree = "<group>"; };
+		D82DF1F61998ADA7005299DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D82DF1FC1998ADA8005299DF /* tableView混合控制Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableView混合控制Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82DF1FD1998ADA8005299DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D82DF2051998ADA8005299DF /* tableView混合控制Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tableView混合控制Tests-Info.plist"; sourceTree = "<group>"; };
+		D82DF2071998ADA8005299DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D82DF2091998ADA8005299DF /* tableView____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "tableView____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D82DF1D81998ADA7005299DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82DF1E11998ADA7005299DF /* CoreGraphics.framework in Frameworks */,
+				D82DF1E31998ADA7005299DF /* UIKit.framework in Frameworks */,
+				D82DF1DF1998ADA7005299DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82DF1F91998ADA8005299DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82DF1FE1998ADA8005299DF /* XCTest.framework in Frameworks */,
+				D82DF2001998ADA8005299DF /* UIKit.framework in Frameworks */,
+				D82DF1FF1998ADA8005299DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D82DF1D21998ADA7005299DF = {
+			isa = PBXGroup;
+			children = (
+				D82DF1E41998ADA7005299DF /* tableView混合控制 */,
+				D82DF2031998ADA8005299DF /* tableView混合控制Tests */,
+				D82DF1DD1998ADA7005299DF /* Frameworks */,
+				D82DF1DC1998ADA7005299DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D82DF1DC1998ADA7005299DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D82DF1DB1998ADA7005299DF /* tableView混合控制.app */,
+				D82DF1FC1998ADA8005299DF /* tableView混合控制Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D82DF1DD1998ADA7005299DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D82DF1DE1998ADA7005299DF /* Foundation.framework */,
+				D82DF1E01998ADA7005299DF /* CoreGraphics.framework */,
+				D82DF1E21998ADA7005299DF /* UIKit.framework */,
+				D82DF1FD1998ADA8005299DF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D82DF1E41998ADA7005299DF /* tableView混合控制 */ = {
+			isa = PBXGroup;
+			children = (
+				D81CE5781999F1410049404D /* icon.png */,
+				D82DF1ED1998ADA7005299DF /* ExamAppDelegate.h */,
+				D82DF1EE1998ADA7005299DF /* ExamAppDelegate.m */,
+				D82DF1F01998ADA7005299DF /* Main.storyboard */,
+				D82DF1F31998ADA7005299DF /* ExamViewController.h */,
+				D82DF1F41998ADA7005299DF /* ExamViewController.m */,
+				D82DF1F61998ADA7005299DF /* Images.xcassets */,
+				D82DF1E51998ADA7005299DF /* Supporting Files */,
+			);
+			path = "tableView混合控制";
+			sourceTree = "<group>";
+		};
+		D82DF1E51998ADA7005299DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D82DF1E61998ADA7005299DF /* tableView混合控制-Info.plist */,
+				D82DF1E71998ADA7005299DF /* InfoPlist.strings */,
+				D82DF1EA1998ADA7005299DF /* main.m */,
+				D82DF1EC1998ADA7005299DF /* tableView混合控制-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D82DF2031998ADA8005299DF /* tableView混合控制Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D82DF2091998ADA8005299DF /* tableView____Tests.m */,
+				D82DF2041998ADA8005299DF /* Supporting Files */,
+			);
+			path = "tableView混合控制Tests";
+			sourceTree = "<group>";
+		};
+		D82DF2041998ADA8005299DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D82DF2051998ADA8005299DF /* tableView混合控制Tests-Info.plist */,
+				D82DF2061998ADA8005299DF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D82DF1DA1998ADA7005299DF /* tableView混合控制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82DF20D1998ADA8005299DF /* Build configuration list for PBXNativeTarget "tableView混合控制" */;
+			buildPhases = (
+				D82DF1D71998ADA7005299DF /* Sources */,
+				D82DF1D81998ADA7005299DF /* Frameworks */,
+				D82DF1D91998ADA7005299DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tableView混合控制";
+			productName = "tableView混合控制";
+			productReference = D82DF1DB1998ADA7005299DF /* tableView混合控制.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D82DF1FB1998ADA8005299DF /* tableView混合控制Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82DF2101998ADA8005299DF /* Build configuration list for PBXNativeTarget "tableView混合控制Tests" */;
+			buildPhases = (
+				D82DF1F81998ADA8005299DF /* Sources */,
+				D82DF1F91998ADA8005299DF /* Frameworks */,
+				D82DF1FA1998ADA8005299DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D82DF2021998ADA8005299DF /* PBXTargetDependency */,
+			);
+			name = "tableView混合控制Tests";
+			productName = "tableView混合控制Tests";
+			productReference = D82DF1FC1998ADA8005299DF /* tableView混合控制Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D82DF1D31998ADA7005299DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Exam;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Joe;
+				TargetAttributes = {
+					D82DF1FB1998ADA8005299DF = {
+						TestTargetID = D82DF1DA1998ADA7005299DF;
+					};
+				};
+			};
+			buildConfigurationList = D82DF1D61998ADA7005299DF /* Build configuration list for PBXProject "tableView混合控制" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D82DF1D21998ADA7005299DF;
+			productRefGroup = D82DF1DC1998ADA7005299DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D82DF1DA1998ADA7005299DF /* tableView混合控制 */,
+				D82DF1FB1998ADA8005299DF /* tableView混合控制Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D82DF1D91998ADA7005299DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81CE5791999F1410049404D /* icon.png in Resources */,
+				D82DF1F71998ADA7005299DF /* Images.xcassets in Resources */,
+				D82DF1E91998ADA7005299DF /* InfoPlist.strings in Resources */,
+				D82DF1F21998ADA7005299DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82DF1FA1998ADA8005299DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82DF2081998ADA8005299DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D82DF1D71998ADA7005299DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82DF1EB1998ADA7005299DF /* main.m in Sources */,
+				D82DF1EF1998ADA7005299DF /* ExamAppDelegate.m in Sources */,
+				D82DF1F51998ADA7005299DF /* ExamViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82DF1F81998ADA8005299DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82DF20A1998ADA8005299DF /* tableView____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D82DF2021998ADA8005299DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82DF1DA1998ADA7005299DF /* tableView混合控制 */;
+			targetProxy = D82DF2011998ADA8005299DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D82DF1E71998ADA7005299DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82DF1E81998ADA7005299DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D82DF1F01998ADA7005299DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82DF1F11998ADA7005299DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D82DF2061998ADA8005299DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82DF2071998ADA8005299DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D82DF20B1998ADA8005299DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D82DF20C1998ADA8005299DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D82DF20E1998ADA8005299DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tableView混合控制/tableView混合控制-Prefix.pch";
+				INFOPLIST_FILE = "tableView混合控制/tableView混合控制-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D82DF20F1998ADA8005299DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tableView混合控制/tableView混合控制-Prefix.pch";
+				INFOPLIST_FILE = "tableView混合控制/tableView混合控制-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D82DF2111998ADA8005299DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tableView混合控制.app/tableView混合控制";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tableView混合控制/tableView混合控制-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tableView混合控制Tests/tableView混合控制Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D82DF2121998ADA8005299DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tableView混合控制.app/tableView混合控制";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tableView混合控制/tableView混合控制-Prefix.pch";
+				INFOPLIST_FILE = "tableView混合控制Tests/tableView混合控制Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D82DF1D61998ADA7005299DF /* Build configuration list for PBXProject "tableView混合控制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82DF20B1998ADA8005299DF /* Debug */,
+				D82DF20C1998ADA8005299DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82DF20D1998ADA8005299DF /* Build configuration list for PBXNativeTarget "tableView混合控制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82DF20E1998ADA8005299DF /* Debug */,
+				D82DF20F1998ADA8005299DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82DF2101998ADA8005299DF /* Build configuration list for PBXNativeTarget "tableView混合控制Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82DF2111998ADA8005299DF /* Debug */,
+				D82DF2121998ADA8005299DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D82DF1D31998ADA7005299DF /* Project object */;
+}
