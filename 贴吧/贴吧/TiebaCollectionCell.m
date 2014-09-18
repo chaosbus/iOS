@@ -15,15 +15,9 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        // Initialization code
         
         // 初始化时加载collectionCell.xib文件
         NSArray *arrayOfViews = [[NSBundle mainBundle] loadNibNamed:@"TiebaCollectionCell" owner:self options:nil];
-        
-        if (!arrayOfViews) {
-            NSLog(@"----- null -----");
-        } else
-            NSLog(@"----- %i ", arrayOfViews.count);
         
         // 如果路径不存在，return nil
         if (arrayOfViews.count < 1)

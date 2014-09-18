@@ -9,6 +9,7 @@
 #import "MoreViewController.h"
 #import "ImgTitleCell.h"
 #import "AboutMeCell.h"
+#import "TestViewController.h"
 
 @interface MoreViewController ()
 
@@ -23,7 +24,6 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.title = @"hahahaaha";
     }
     return self;
 }
@@ -40,27 +40,33 @@
 //    self.navigationController.title = @"123456";
     self.navigationItem.title = @"更多";
     
-    
-    
-    NSBundle *bundle = [NSBundle mainBundle];
-    NSString *plistPath = [bundle pathForResource:@"More" ofType:@"plist"];
-    _moreList = [[NSArray alloc] initWithContentsOfFile:plistPath];
+    [self loadMoreSettings];
 
-    NSLog(@"section : %i", _moreList.count);
-    for (int i = 0; i<_moreList.count; i++) {
-        
-        NSArray *a = [_moreList objectAtIndex:i];
-        NSLog(@"row : %i", a.count);
-        for (int j = 0; j< a.count; j++) {
-            NSLog(@"\t %@", a[j]);
-        }
-    }
+//    moreTableView.tableHeaderView = [[UIView alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - 加载“更多”列表配置
+- (void)loadMoreSettings
+{
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSString *plistPath = [bundle pathForResource:@"More" ofType:@"plist"];
+    _moreList = [[NSArray alloc] initWithContentsOfFile:plistPath];
+    
+//    NSLog(@"section : %i", _moreList.count);
+//    for (int i = 0; i<_moreList.count; i++) {
+//        
+//        NSArray *a = [_moreList objectAtIndex:i];
+//        NSLog(@"row : %i", a.count);
+//        for (int j = 0; j< a.count; j++) {
+//            NSLog(@"\t %@", a[j]);
+//        }
+//    }
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -76,14 +82,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *cellIdentify;
     NSArray *group = [_moreList objectAtIndex:indexPath.section];
     NSString *title = [group objectAtIndex:indexPath.row];
     
     if (indexPath.section == 0) {
-        cellIdentify = @"AboutMe";
-        
-        AboutMeCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentify];
+        AboutMeCell *cell = [tableView dequeueReusableCellWithIdentifier:ABOUTME_CELL_IDENTIFIER];
         if (!cell) {
             cell = [[AboutMeCell alloc] init];
         }
@@ -93,9 +96,7 @@
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         return cell;
     } else {
-        cellIdentify = @"ImgTitleCell";
-        
-        ImgTitleCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentify];
+        ImgTitleCell *cell = [tableView dequeueReusableCellWithIdentifier:IMGTITLE_CELL_IDENTIFIER];
         if (!cell) {
             cell = [[ImgTitleCell alloc] init];
         }
@@ -117,7 +118,6 @@
     return cell.frame.size.height;
 }
 
-
 #pragma mark - 节头
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
@@ -126,6 +126,7 @@
     return headerView;
 }
 
+#pragma mark - 节头高度
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
 //    tableView.sectionFooterHeight = 1.0;
@@ -140,6 +141,7 @@
     return footerView;
 }
 
+#pragma mark - 节脚高度
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
     return 5;
@@ -147,7 +149,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    TestViewController *view = [[TestViewController alloc] init];
+    view.title = @"Tester";
+    // 设置返回标签
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Back<<" style:UIBarButtonItemStyleBordered target:nil action:nil];
+    // 隐藏子view的tabbar
+    view.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:view animated:YES];
 }
 
 @end

@@ -27,7 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    if( ([[[UIDevice currentDevice] systemVersion] doubleValue]>=7.0)) {
+    if (([[[UIDevice currentDevice] systemVersion] doubleValue]>=7.0)) {
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
     self.navigationItem.title = @"联系人";

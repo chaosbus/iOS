@@ -22,6 +22,7 @@
 		D830C7741990A3E700457ED7 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = D830C7731990A3E700457ED7 /* Main.xib */; };
 		D830C77B1990A75B00457ED7 /* EditTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C7791990A75B00457ED7 /* EditTabBarViewController.m */; };
 		D830C77C1990A75B00457ED7 /* EditTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D830C77A1990A75B00457ED7 /* EditTabBarViewController.xib */; };
+		D85429C119C95FF9007C4DF6 /* bubbleMine.png in Resources */ = {isa = PBXBuildFile; fileRef = D85429C019C95FF9007C4DF6 /* bubbleMine.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D830C7781990A75B00457ED7 /* EditTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTabBarViewController.h; sourceTree = "<group>"; };
 		D830C7791990A75B00457ED7 /* EditTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTabBarViewController.m; sourceTree = "<group>"; };
 		D830C77A1990A75B00457ED7 /* EditTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditTabBarViewController.xib; sourceTree = "<group>"; };
+		D85429C019C95FF9007C4DF6 /* bubbleMine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleMine.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		D830C74A1990A3D400457ED7 /* UITabBar */ = {
 			isa = PBXGroup;
 			children = (
+				D85429C019C95FF9007C4DF6 /* bubbleMine.png */,
 				D830C7531990A3D500457ED7 /* MyUIAppDelegate.h */,
 				D830C7541990A3D500457ED7 /* MyUIAppDelegate.m */,
 				D830C7561990A3D500457ED7 /* Images.xcassets */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D830C74F1990A3D400457ED7 /* InfoPlist.strings in Resources */,
+				D85429C119C95FF9007C4DF6 /* bubbleMine.png in Resources */,
 				D830C7741990A3E700457ED7 /* Main.xib in Resources */,
 				D830C77C1990A75B00457ED7 /* EditTabBarViewController.xib in Resources */,
 				D830C7571990A3D500457ED7 /* Images.xcassets in Resources */,
@@ -452,6 +456,7 @@
 				D830C76F1990A3D500457ED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D830C7701990A3D500457ED7 /* Build configuration list for PBXNativeTarget "UITabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +465,7 @@
 				D830C7721990A3D500457ED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

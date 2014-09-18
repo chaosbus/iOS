@@ -17,4 +17,5 @@
 @property (nonatomic, weak) IBOutlet UIImageView *headImg;
 @property (nonatomic, weak) IBOutlet UILabel *accountLabel;
 
+#define ABOUTME_CELL_IDENTIFIER  @"AboutMeCell"
 @end

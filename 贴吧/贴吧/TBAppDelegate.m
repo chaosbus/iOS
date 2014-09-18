@@ -7,6 +7,7 @@
 //
 
 #import "TBAppDelegate.h"
+#import "TBNavViewController.h"
 #import "LoginView.h"
 
 @implementation TBAppDelegate
@@ -16,7 +17,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     LoginView *loginView = [[LoginView alloc] init];
-    UINavigationController *navView = [[UINavigationController alloc] initWithRootViewController:loginView];
+    
+//    UINavigationController *navView = [[UINavigationController alloc] initWithRootViewController:loginView];
+    TBNavViewController *navView = [[TBNavViewController alloc] initWithRootViewController:loginView];
+
     navView.navigationBar.barTintColor = [UIColor blackColor];
     navView.navigationBarHidden = YES;
     self.window.rootViewController = navView;

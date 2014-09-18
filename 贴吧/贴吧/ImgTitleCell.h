@@ -19,4 +19,5 @@
 @property (nonatomic, weak) IBOutlet UILabel *titleLable;
 @property (nonatomic, weak) IBOutlet UILabel *noticeLabel;
 
+#define IMGTITLE_CELL_IDENTIFIER    @"ImgTitleCell"
 @end

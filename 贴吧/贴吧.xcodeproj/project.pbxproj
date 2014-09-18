@@ -28,6 +28,16 @@
 		D831074719BEF437007BD32B /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D831074519BEF437007BD32B /* MoreViewController.m */; };
 		D831074819BEF437007BD32B /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D831074619BEF437007BD32B /* MoreViewController.xib */; };
 		D835694819C0781200D72109 /* TiebaCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D835694719C0781200D72109 /* TiebaCollectionCell.xib */; };
+		D835694D19C0A38100D72109 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D835694B19C0A38100D72109 /* TestViewController.m */; };
+		D835694E19C0A38100D72109 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D835694C19C0A38100D72109 /* TestViewController.xib */; };
+		D835695319C0A4D900D72109 /* TiebaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D835695119C0A4D900D72109 /* TiebaViewController.m */; };
+		D835695419C0A4D900D72109 /* TiebaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D835695219C0A4D900D72109 /* TiebaViewController.xib */; };
+		D835695719C0A94200D72109 /* img_content.png in Resources */ = {isa = PBXBuildFile; fileRef = D835695519C0A94200D72109 /* img_content.png */; };
+		D835695819C0A94200D72109 /* img_post.png in Resources */ = {isa = PBXBuildFile; fileRef = D835695619C0A94200D72109 /* img_post.png */; };
+		D835695A19C0A9F400D72109 /* img_t.png in Resources */ = {isa = PBXBuildFile; fileRef = D835695919C0A9F400D72109 /* img_t.png */; };
+		D835695D19C0AE7C00D72109 /* UIImageOriginal.m in Sources */ = {isa = PBXBuildFile; fileRef = D835695C19C0AE7C00D72109 /* UIImageOriginal.m */; };
+		D841058D19C2E7CE0033C13E /* RegistView.m in Sources */ = {isa = PBXBuildFile; fileRef = D841058B19C2E7CE0033C13E /* RegistView.m */; };
+		D841058E19C2E7CE0033C13E /* RegistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D841058C19C2E7CE0033C13E /* RegistView.xib */; };
 		D84312AF19BFEFBD0009F2B9 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84312AD19BFEFBD0009F2B9 /* MessageViewController.m */; };
 		D84312B019BFEFBD0009F2B9 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84312AE19BFEFBD0009F2B9 /* MessageViewController.xib */; };
 		D84312B419BFEFCC0009F2B9 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84312B219BFEFCC0009F2B9 /* ContactViewController.m */; };
@@ -46,6 +56,16 @@
 		D84312D419C02CE80009F2B9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D84312D119C02CE80009F2B9 /* 2.png */; };
 		D84312D519C02CE80009F2B9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D84312D219C02CE80009F2B9 /* Icon.png */; };
 		D84312D819C033FA0009F2B9 /* TiebaCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D84312D719C033FA0009F2B9 /* TiebaCollectionCell.m */; };
+		D84B63FB19C6E12F0056A804 /* AtMeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D84B63F919C6E12F0056A804 /* AtMeView.m */; };
+		D84B63FC19C6E12F0056A804 /* AtMeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84B63FA19C6E12F0056A804 /* AtMeView.xib */; };
+		D84B640319C6E4C20056A804 /* RespondMeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D84B640119C6E4C20056A804 /* RespondMeView.m */; };
+		D84B640419C6E4C20056A804 /* RespondMeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84B640219C6E4C20056A804 /* RespondMeView.xib */; };
+		D84B640819C6E5750056A804 /* MessageToMeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D84B640619C6E5750056A804 /* MessageToMeView.m */; };
+		D84B640919C6E5750056A804 /* MessageToMeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84B640719C6E5750056A804 /* MessageToMeView.xib */; };
+		D84B641019C6EECC0056A804 /* CatalogueView.m in Sources */ = {isa = PBXBuildFile; fileRef = D84B640E19C6EECC0056A804 /* CatalogueView.m */; };
+		D84B641119C6EECC0056A804 /* CatalogueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84B640F19C6EECC0056A804 /* CatalogueView.xib */; };
+		D85897CB19C151B0006554AE /* JinbaSearchHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D85897CA19C151B0006554AE /* JinbaSearchHeader.m */; };
+		D85897CD19C152F0006554AE /* JinbaSearchHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85897CC19C152F0006554AE /* JinbaSearchHeader.xib */; };
 		DBA5AA0F1760429DA81B1DA7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6D9B667E004D448336009D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +112,20 @@
 		D831074519BEF437007BD32B /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
 		D831074619BEF437007BD32B /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
 		D835694719C0781200D72109 /* TiebaCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TiebaCollectionCell.xib; sourceTree = "<group>"; };
+		D835694A19C0A38100D72109 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D835694B19C0A38100D72109 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		D835694C19C0A38100D72109 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		D835695019C0A4D900D72109 /* TiebaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiebaViewController.h; sourceTree = "<group>"; };
+		D835695119C0A4D900D72109 /* TiebaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiebaViewController.m; sourceTree = "<group>"; };
+		D835695219C0A4D900D72109 /* TiebaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TiebaViewController.xib; sourceTree = "<group>"; };
+		D835695519C0A94200D72109 /* img_content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_content.png; sourceTree = "<group>"; };
+		D835695619C0A94200D72109 /* img_post.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_post.png; sourceTree = "<group>"; };
+		D835695919C0A9F400D72109 /* img_t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_t.png; sourceTree = "<group>"; };
+		D835695B19C0AE7C00D72109 /* UIImageOriginal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageOriginal.h; sourceTree = "<group>"; };
+		D835695C19C0AE7C00D72109 /* UIImageOriginal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageOriginal.m; sourceTree = "<group>"; };
+		D841058A19C2E7CE0033C13E /* RegistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistView.h; sourceTree = "<group>"; };
+		D841058B19C2E7CE0033C13E /* RegistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistView.m; sourceTree = "<group>"; };
+		D841058C19C2E7CE0033C13E /* RegistView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistView.xib; sourceTree = "<group>"; };
 		D84312AC19BFEFBD0009F2B9 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
 		D84312AD19BFEFBD0009F2B9 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 		D84312AE19BFEFBD0009F2B9 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
@@ -117,6 +151,21 @@
 		D84312D219C02CE80009F2B9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		D84312D619C033FA0009F2B9 /* TiebaCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiebaCollectionCell.h; sourceTree = "<group>"; };
 		D84312D719C033FA0009F2B9 /* TiebaCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiebaCollectionCell.m; sourceTree = "<group>"; };
+		D84B63F819C6E12F0056A804 /* AtMeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtMeView.h; sourceTree = "<group>"; };
+		D84B63F919C6E12F0056A804 /* AtMeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtMeView.m; sourceTree = "<group>"; };
+		D84B63FA19C6E12F0056A804 /* AtMeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AtMeView.xib; sourceTree = "<group>"; };
+		D84B640019C6E4C20056A804 /* RespondMeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespondMeView.h; sourceTree = "<group>"; };
+		D84B640119C6E4C20056A804 /* RespondMeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespondMeView.m; sourceTree = "<group>"; };
+		D84B640219C6E4C20056A804 /* RespondMeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RespondMeView.xib; sourceTree = "<group>"; };
+		D84B640519C6E5750056A804 /* MessageToMeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageToMeView.h; sourceTree = "<group>"; };
+		D84B640619C6E5750056A804 /* MessageToMeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageToMeView.m; sourceTree = "<group>"; };
+		D84B640719C6E5750056A804 /* MessageToMeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageToMeView.xib; sourceTree = "<group>"; };
+		D84B640D19C6EECC0056A804 /* CatalogueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogueView.h; sourceTree = "<group>"; };
+		D84B640E19C6EECC0056A804 /* CatalogueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogueView.m; sourceTree = "<group>"; };
+		D84B640F19C6EECC0056A804 /* CatalogueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatalogueView.xib; sourceTree = "<group>"; };
+		D85897C919C151B0006554AE /* JinbaSearchHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinbaSearchHeader.h; sourceTree = "<group>"; };
+		D85897CA19C151B0006554AE /* JinbaSearchHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinbaSearchHeader.m; sourceTree = "<group>"; };
+		D85897CC19C152F0006554AE /* JinbaSearchHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JinbaSearchHeader.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,13 +228,14 @@
 		D831070119BEE4DE007BD32B /* 贴吧 */ = {
 			isa = PBXGroup;
 			children = (
-				D835694919C0A19600D72109 /* Control */,
-				D84312C019BFFF320009F2B9 /* Cell */,
-				D831073019BEE610007BD32B /* 登陆 */,
-				D831073619BEF116007BD32B /* 主界面 */,
-				D84312CB19C02A000009F2B9 /* image */,
+				D841058919C2E6FF0033C13E /* Model */,
+				D841058819C2E6EB0033C13E /* View */,
+				D835694919C0A19600D72109 /* Controller */,
 				D831070D19BEE4DE007BD32B /* Images.xcassets */,
 				D831070219BEE4DE007BD32B /* Supporting Files */,
+				D835694A19C0A38100D72109 /* TestViewController.h */,
+				D835694B19C0A38100D72109 /* TestViewController.m */,
+				D835694C19C0A38100D72109 /* TestViewController.xib */,
 			);
 			path = "贴吧";
 			sourceTree = "<group>";
@@ -225,6 +275,9 @@
 				D831073119BEE648007BD32B /* LoginView.h */,
 				D831073219BEE648007BD32B /* LoginView.m */,
 				D831073319BEE648007BD32B /* LoginView.xib */,
+				D841058A19C2E7CE0033C13E /* RegistView.h */,
+				D841058B19C2E7CE0033C13E /* RegistView.m */,
+				D841058C19C2E7CE0033C13E /* RegistView.xib */,
 			);
 			name = "登陆";
 			sourceTree = "<group>";
@@ -256,6 +309,7 @@
 		D831073B19BEF266007BD32B /* 进吧 */ = {
 			isa = PBXGroup;
 			children = (
+				D835694F19C0A4AF00D72109 /* Lv.2 */,
 				D831073F19BEF3E0007BD32B /* JinbaViewController.h */,
 				D831074019BEF3E0007BD32B /* JinbaViewController.m */,
 				D831074119BEF3E0007BD32B /* JinbaViewController.xib */,
@@ -266,6 +320,7 @@
 		D831073C19BEF269007BD32B /* 消息 */ = {
 			isa = PBXGroup;
 			children = (
+				D84B63ED19C6D4DE0056A804 /* Lv.2 段控制器 */,
 				D84312AC19BFEFBD0009F2B9 /* MessageViewController.h */,
 				D84312AD19BFEFBD0009F2B9 /* MessageViewController.m */,
 				D84312AE19BFEFBD0009F2B9 /* MessageViewController.xib */,
@@ -286,6 +341,7 @@
 		D831073E19BEF299007BD32B /* 更多 */ = {
 			isa = PBXGroup;
 			children = (
+				D8B53FB019C7E73900AC3048 /* Lv.2 */,
 				D831074419BEF437007BD32B /* MoreViewController.h */,
 				D831074519BEF437007BD32B /* MoreViewController.m */,
 				D831074619BEF437007BD32B /* MoreViewController.xib */,
@@ -294,7 +350,7 @@
 			name = "更多";
 			sourceTree = "<group>";
 		};
-		D835694919C0A19600D72109 /* Control */ = {
+		D835694919C0A19600D72109 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				D831070A19BEE4DE007BD32B /* TBAppDelegate.h */,
@@ -303,8 +359,38 @@
 				D84312BC19BFF0F90009F2B9 /* TBTabBarViewController.m */,
 				D831072A19BEE51B007BD32B /* TBNavViewController.h */,
 				D831072B19BEE51B007BD32B /* TBNavViewController.m */,
+				D835695B19C0AE7C00D72109 /* UIImageOriginal.h */,
+				D835695C19C0AE7C00D72109 /* UIImageOriginal.m */,
 			);
-			name = Control;
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D835694F19C0A4AF00D72109 /* Lv.2 */ = {
+			isa = PBXGroup;
+			children = (
+				D8B53FAF19C7DFC400AC3048 /* 一键签到 */,
+				D8B53FAE19C7DE1A00AC3048 /* 贴吧浏览 */,
+				D8B53FAD19C7DDF600AC3048 /* 贴吧目录 */,
+			);
+			name = Lv.2;
+			sourceTree = "<group>";
+		};
+		D841058819C2E6EB0033C13E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D84312C019BFFF320009F2B9 /* Cell */,
+				D831073019BEE610007BD32B /* 登陆 */,
+				D831073619BEF116007BD32B /* 主界面 */,
+				D84312CB19C02A000009F2B9 /* image */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D841058919C2E6FF0033C13E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		D84312C019BFFF320009F2B9 /* Cell */ = {
@@ -319,6 +405,9 @@
 				D84312D619C033FA0009F2B9 /* TiebaCollectionCell.h */,
 				D84312D719C033FA0009F2B9 /* TiebaCollectionCell.m */,
 				D835694719C0781200D72109 /* TiebaCollectionCell.xib */,
+				D85897C919C151B0006554AE /* JinbaSearchHeader.h */,
+				D85897CA19C151B0006554AE /* JinbaSearchHeader.m */,
+				D85897CC19C152F0006554AE /* JinbaSearchHeader.xib */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -326,6 +415,9 @@
 		D84312CB19C02A000009F2B9 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				D835695919C0A9F400D72109 /* img_t.png */,
+				D835695519C0A94200D72109 /* img_content.png */,
+				D835695619C0A94200D72109 /* img_post.png */,
 				D84312D019C02CE80009F2B9 /* 1.png */,
 				D84312D119C02CE80009F2B9 /* 2.png */,
 				D84312D219C02CE80009F2B9 /* Icon.png */,
@@ -333,6 +425,80 @@
 				D84312CD19C02A4E0009F2B9 /* sendmsg.caf */,
 			);
 			name = image;
+			sourceTree = "<group>";
+		};
+		D84B63ED19C6D4DE0056A804 /* Lv.2 段控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				D84B640C19C6E5A30056A804 /* 消息 */,
+				D84B640B19C6E5A00056A804 /* 回复 */,
+				D84B640A19C6E59D0056A804 /* @我 */,
+			);
+			name = "Lv.2 段控制器";
+			sourceTree = "<group>";
+		};
+		D84B640A19C6E59D0056A804 /* @我 */ = {
+			isa = PBXGroup;
+			children = (
+				D84B63F819C6E12F0056A804 /* AtMeView.h */,
+				D84B63F919C6E12F0056A804 /* AtMeView.m */,
+				D84B63FA19C6E12F0056A804 /* AtMeView.xib */,
+			);
+			name = "@我";
+			sourceTree = "<group>";
+		};
+		D84B640B19C6E5A00056A804 /* 回复 */ = {
+			isa = PBXGroup;
+			children = (
+				D84B640019C6E4C20056A804 /* RespondMeView.h */,
+				D84B640119C6E4C20056A804 /* RespondMeView.m */,
+				D84B640219C6E4C20056A804 /* RespondMeView.xib */,
+			);
+			name = "回复";
+			sourceTree = "<group>";
+		};
+		D84B640C19C6E5A30056A804 /* 消息 */ = {
+			isa = PBXGroup;
+			children = (
+				D84B640519C6E5750056A804 /* MessageToMeView.h */,
+				D84B640619C6E5750056A804 /* MessageToMeView.m */,
+				D84B640719C6E5750056A804 /* MessageToMeView.xib */,
+			);
+			name = "消息";
+			sourceTree = "<group>";
+		};
+		D8B53FAD19C7DDF600AC3048 /* 贴吧目录 */ = {
+			isa = PBXGroup;
+			children = (
+				D84B640D19C6EECC0056A804 /* CatalogueView.h */,
+				D84B640E19C6EECC0056A804 /* CatalogueView.m */,
+				D84B640F19C6EECC0056A804 /* CatalogueView.xib */,
+			);
+			name = "贴吧目录";
+			sourceTree = "<group>";
+		};
+		D8B53FAE19C7DE1A00AC3048 /* 贴吧浏览 */ = {
+			isa = PBXGroup;
+			children = (
+				D835695019C0A4D900D72109 /* TiebaViewController.h */,
+				D835695119C0A4D900D72109 /* TiebaViewController.m */,
+				D835695219C0A4D900D72109 /* TiebaViewController.xib */,
+			);
+			name = "贴吧浏览";
+			sourceTree = "<group>";
+		};
+		D8B53FAF19C7DFC400AC3048 /* 一键签到 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "一键签到";
+			sourceTree = "<group>";
+		};
+		D8B53FB019C7E73900AC3048 /* Lv.2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lv.2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,21 +579,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D84B63FC19C6E12F0056A804 /* AtMeView.xib in Resources */,
+				D841058E19C2E7CE0033C13E /* RegistView.xib in Resources */,
+				D835695A19C0A9F400D72109 /* img_t.png in Resources */,
 				D84312BF19BFF6CD0009F2B9 /* More.plist in Resources */,
 				D831074819BEF437007BD32B /* MoreViewController.xib in Resources */,
+				D835695819C0A94200D72109 /* img_post.png in Resources */,
 				D831070619BEE4DE007BD32B /* InfoPlist.strings in Resources */,
+				D835695419C0A4D900D72109 /* TiebaViewController.xib in Resources */,
 				D84312CA19C002310009F2B9 /* AboutMeCell.xib in Resources */,
+				D835694E19C0A38100D72109 /* TestViewController.xib in Resources */,
 				D84312D519C02CE80009F2B9 /* Icon.png in Resources */,
 				D84312B019BFEFBD0009F2B9 /* MessageViewController.xib in Resources */,
 				D84312CF19C02A4E0009F2B9 /* sendmsg.caf in Resources */,
 				D831070E19BEE4DE007BD32B /* Images.xcassets in Resources */,
+				D84B641119C6EECC0056A804 /* CatalogueView.xib in Resources */,
 				D84312D319C02CE80009F2B9 /* 1.png in Resources */,
+				D84B640919C6E5750056A804 /* MessageToMeView.xib in Resources */,
 				D831073519BEE648007BD32B /* LoginView.xib in Resources */,
 				D835694819C0781200D72109 /* TiebaCollectionCell.xib in Resources */,
+				D85897CD19C152F0006554AE /* JinbaSearchHeader.xib in Resources */,
 				D831074319BEF3E0007BD32B /* JinbaViewController.xib in Resources */,
 				D84312B519BFEFCC0009F2B9 /* ContactViewController.xib in Resources */,
+				D84B640419C6E4C20056A804 /* RespondMeView.xib in Resources */,
 				D84312CE19C02A4E0009F2B9 /* 3.jpeg in Resources */,
 				D84312C519BFFF8F0009F2B9 /* ImgTitleCell.xib in Resources */,
+				D835695719C0A94200D72109 /* img_content.png in Resources */,
 				D84312D419C02CE80009F2B9 /* 2.png in Resources */,
 				D84312BA19BFF0680009F2B9 /* FindViewController.xib in Resources */,
 			);
@@ -483,14 +660,23 @@
 			files = (
 				D831072C19BEE51B007BD32B /* TBNavViewController.m in Sources */,
 				D831070C19BEE4DE007BD32B /* TBAppDelegate.m in Sources */,
+				D84B640319C6E4C20056A804 /* RespondMeView.m in Sources */,
 				D831073419BEE648007BD32B /* LoginView.m in Sources */,
+				D835695D19C0AE7C00D72109 /* UIImageOriginal.m in Sources */,
+				D841058D19C2E7CE0033C13E /* RegistView.m in Sources */,
 				D831074219BEF3E0007BD32B /* JinbaViewController.m in Sources */,
+				D835695319C0A4D900D72109 /* TiebaViewController.m in Sources */,
 				D84312B419BFEFCC0009F2B9 /* ContactViewController.m in Sources */,
 				D831073919BEF1DF007BD32B /* MainTabBar.m in Sources */,
 				D831074719BEF437007BD32B /* MoreViewController.m in Sources */,
 				D84312B919BFF0670009F2B9 /* FindViewController.m in Sources */,
 				D84312C419BFFF8F0009F2B9 /* ImgTitleCell.m in Sources */,
+				D835694D19C0A38100D72109 /* TestViewController.m in Sources */,
+				D84B63FB19C6E12F0056A804 /* AtMeView.m in Sources */,
+				D84B641019C6EECC0056A804 /* CatalogueView.m in Sources */,
+				D84B640819C6E5750056A804 /* MessageToMeView.m in Sources */,
 				D84312D819C033FA0009F2B9 /* TiebaCollectionCell.m in Sources */,
+				D85897CB19C151B0006554AE /* JinbaSearchHeader.m in Sources */,
 				D84312AF19BFEFBD0009F2B9 /* MessageViewController.m in Sources */,
 				D84312BD19BFF0F90009F2B9 /* TBTabBarViewController.m in Sources */,
 				D84312C919C002310009F2B9 /* AboutMeCell.m in Sources */,
