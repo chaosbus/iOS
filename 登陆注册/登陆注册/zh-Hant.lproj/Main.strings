@@ -1,0 +1,45 @@
+
+/* Class = "IBUIButton"; normalTitle = "保存密码"; ObjectID = "3IE-a9-RhT"; */
+"3IE-a9-RhT.normalTitle" = "保存密码";
+
+/* Class = "IBUILabel"; text = "备注说明："; ObjectID = "AUi-yP-gbO"; */
+"AUi-yP-gbO.text" = "备注说明：";
+
+/* Class = "IBUITextField"; placeholder = "请输入密码"; ObjectID = "G0Z-rh-QWc"; */
+"G0Z-rh-QWc.placeholder" = "请输入密码";
+
+/* Class = "IBUIButton"; normalTitle = "忘记密码"; ObjectID = "HKB-IQ-eV6"; */
+"HKB-IQ-eV6.normalTitle" = "忘记密码";
+
+/* Class = "IBUILabel"; text = "用户名"; ObjectID = "Oej-uH-9iS"; */
+"Oej-uH-9iS.text" = "用户名";
+
+/* Class = "IBUITextField"; placeholder = "创建用户名"; ObjectID = "QC7-Ja-fxd"; */
+"QC7-Ja-fxd.placeholder" = "创建用户名";
+
+/* Class = "IBUINavigationItem"; title = "注册"; ObjectID = "VJd-T6-w63"; */
+"VJd-T6-w63.title" = "注册";
+
+/* Class = "IBUIButton"; normalTitle = "自动登陆"; ObjectID = "agw-LJ-2DG"; */
+"agw-LJ-2DG.normalTitle" = "自动登陆";
+
+/* Class = "IBUIButton"; normalTitle = "登陆"; ObjectID = "dtd-7X-FTg"; */
+"dtd-7X-FTg.normalTitle" = "登陆";
+
+/* Class = "IBUILabel"; text = "密码"; ObjectID = "jJ1-ep-cE9"; */
+"jJ1-ep-cE9.text" = "密码";
+
+/* Class = "IBUITextField"; placeholder = "创建密码"; ObjectID = "jZk-kx-N8a"; */
+"jZk-kx-N8a.placeholder" = "创建密码";
+
+/* Class = "IBUIBarButtonItem"; title = "返回"; ObjectID = "pdf-xp-N3L"; */
+"pdf-xp-N3L.title" = "返回";
+
+/* Class = "IBUIButton"; normalTitle = "注册"; ObjectID = "t0j-37-glP"; */
+"t0j-37-glP.normalTitle" = "注册";
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "u2B-Rd-UHh"; */
+"u2B-Rd-UHh.normalTitle" = "确定";
+
+/* Class = "IBUITextField"; placeholder = "请输入用户名"; ObjectID = "ux8-Nb-7PS"; */
+"ux8-Nb-7PS.placeholder" = "请输入用户名";

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D837C01719CACB6E0003B103 /* 001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D837C01519CACB6E0003B103 /* 001@2x.png */; };
+		D837C01819CACB6E0003B103 /* 012@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D837C01619CACB6E0003B103 /* 012@2x.png */; };
 		D8542A4719C97AA2007C4DF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8542A4619C97AA2007C4DF6 /* Foundation.framework */; };
 		D8542A4919C97AA2007C4DF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8542A4819C97AA2007C4DF6 /* CoreGraphics.framework */; };
 		D8542A4B19C97AA2007C4DF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8542A4A19C97AA2007C4DF6 /* UIKit.framework */; };
@@ -27,6 +29,7 @@
 		D8542A8819C9819C007C4DF6 /* bubbleMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8542A8419C9819C007C4DF6 /* bubbleMine@2x.png */; };
 		D8542A8919C9819C007C4DF6 /* bubbleSomeone.png in Resources */ = {isa = PBXBuildFile; fileRef = D8542A8519C9819C007C4DF6 /* bubbleSomeone.png */; };
 		D8542A8A19C9819C007C4DF6 /* bubbleSomeone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8542A8619C9819C007C4DF6 /* bubbleSomeone@2x.png */; };
+		D8B36EED19E512D300C5FA27 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8B36EEC19E512D300C5FA27 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D837C01519CACB6E0003B103 /* 001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001@2x.png"; sourceTree = "<group>"; };
+		D837C01619CACB6E0003B103 /* 012@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012@2x.png"; sourceTree = "<group>"; };
 		D8542A4319C97AA2007C4DF6 /* 聊天泡泡V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "聊天泡泡V2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8542A4619C97AA2007C4DF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8542A4819C97AA2007C4DF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,6 +72,7 @@
 		D8542A8419C9819C007C4DF6 /* bubbleMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine@2x.png"; sourceTree = "<group>"; };
 		D8542A8519C9819C007C4DF6 /* bubbleSomeone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSomeone.png; sourceTree = "<group>"; };
 		D8542A8619C9819C007C4DF6 /* bubbleSomeone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleSomeone@2x.png"; sourceTree = "<group>"; };
+		D8B36EEC19E512D300C5FA27 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,7 @@
 				D8542A5C19C97AA2007C4DF6 /* ViewController.m */,
 				D8542A5E19C97AA2007C4DF6 /* Images.xcassets */,
 				D8542A4D19C97AA2007C4DF6 /* Supporting Files */,
+				D8B36EEC19E512D300C5FA27 /* Settings.bundle */,
 			);
 			path = "聊天泡泡V2";
 			sourceTree = "<group>";
@@ -182,6 +189,8 @@
 		D8542A8219C9818B007C4DF6 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				D837C01519CACB6E0003B103 /* 001@2x.png */,
+				D837C01619CACB6E0003B103 /* 012@2x.png */,
 				D8542A8319C9819C007C4DF6 /* bubbleMine.png */,
 				D8542A8419C9819C007C4DF6 /* bubbleMine@2x.png */,
 				D8542A8519C9819C007C4DF6 /* bubbleSomeone.png */,
@@ -266,10 +275,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D837C01719CACB6E0003B103 /* 001@2x.png in Resources */,
 				D8542A8A19C9819C007C4DF6 /* bubbleSomeone@2x.png in Resources */,
+				D8B36EED19E512D300C5FA27 /* Settings.bundle in Resources */,
 				D8542A8919C9819C007C4DF6 /* bubbleSomeone.png in Resources */,
 				D8542A8819C9819C007C4DF6 /* bubbleMine@2x.png in Resources */,
 				D8542A5F19C97AA2007C4DF6 /* Images.xcassets in Resources */,
+				D837C01819CACB6E0003B103 /* 012@2x.png in Resources */,
 				D8542A5119C97AA2007C4DF6 /* InfoPlist.strings in Resources */,
 				D8542A8719C9819C007C4DF6 /* bubbleMine.png in Resources */,
 				D8542A5A19C97AA2007C4DF6 /* Main.storyboard in Resources */,
@@ -500,6 +512,7 @@
 				D8542A7719C97AA2007C4DF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8542A7819C97AA2007C4DF6 /* Build configuration list for PBXNativeTarget "聊天泡泡V2Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +521,7 @@
 				D8542A7A19C97AA2007C4DF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,45 @@
+
+/* Class = "IBUIButton"; normalTitle = "Save Password"; ObjectID = "3IE-a9-RhT"; */
+"3IE-a9-RhT.normalTitle" = "Save Password";
+
+/* Class = "IBUILabel"; text = "Description:"; ObjectID = "AUi-yP-gbO"; */
+"AUi-yP-gbO.text" = "Description:";
+
+/* Class = "IBUITextField"; placeholder = "Input Password"; ObjectID = "G0Z-rh-QWc"; */
+"G0Z-rh-QWc.placeholder" = "Input Password";
+
+/* Class = "IBUIButton"; normalTitle = "Forget Password"; ObjectID = "HKB-IQ-eV6"; */
+"HKB-IQ-eV6.normalTitle" = "Forget Password";
+
+/* Class = "IBUILabel"; text = "Account"; ObjectID = "Oej-uH-9iS"; */
+"Oej-uH-9iS.text" = "Account";
+
+/* Class = "IBUITextField"; placeholder = "Create Account"; ObjectID = "QC7-Ja-fxd"; */
+"QC7-Ja-fxd.placeholder" = "Create Account";
+
+/* Class = "IBUINavigationItem"; title = "Regist"; ObjectID = "VJd-T6-w63"; */
+"VJd-T6-w63.title" = "Regist";
+
+/* Class = "IBUIButton"; normalTitle = "Auto Login"; ObjectID = "agw-LJ-2DG"; */
+"agw-LJ-2DG.normalTitle" = "Auto Login";
+
+/* Class = "IBUIButton"; normalTitle = "Login"; ObjectID = "dtd-7X-FTg"; */
+"dtd-7X-FTg.normalTitle" = "Login";
+
+/* Class = "IBUILabel"; text = "Password"; ObjectID = "jJ1-ep-cE9"; */
+"jJ1-ep-cE9.text" = "Password";
+
+/* Class = "IBUITextField"; placeholder = "Create Password"; ObjectID = "jZk-kx-N8a"; */
+"jZk-kx-N8a.placeholder" = "Create Password";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "pdf-xp-N3L"; */
+"pdf-xp-N3L.title" = "Back";
+
+/* Class = "IBUIButton"; normalTitle = "Regist"; ObjectID = "t0j-37-glP"; */
+"t0j-37-glP.normalTitle" = "Regist";
+
+/* Class = "IBUIButton"; normalTitle = "OK"; ObjectID = "u2B-Rd-UHh"; */
+"u2B-Rd-UHh.normalTitle" = "OK";
+
+/* Class = "IBUITextField"; placeholder = "Input Account"; ObjectID = "ux8-Nb-7PS"; */
+"ux8-Nb-7PS.placeholder" = "Input Account";

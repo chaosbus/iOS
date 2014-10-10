@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:&#x804a;&#x5929;&#x6ce1;&#x6ce1;/&#x804a;&#x5929;&#x6ce1;&#x6ce1;.xcodeproj">
+      location = "self:&#x6838;&#x5fc3;&#x5f00;&#x53d1;&#x624b;&#x518c;.xcodeproj">
    </FileRef>
 </Workspace>

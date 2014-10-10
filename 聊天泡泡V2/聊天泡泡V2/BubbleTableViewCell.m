@@ -92,6 +92,7 @@
                                 constrainedToSize:CGSizeMake(CELL_WIDTH - BUBBLE_HEAD_SIZE - BUBBLE_SPACE * 2 - BUBBLE_WIDTH_LEFT, 999)
                                     lineBreakMode:NSLineBreakByWordWrapping];
     
+    NSString *head;
     if (NSBubbleTypeMe == _type) {
         x = CELL_WIDTH - BUBBLE_HEAD_SIZE - BUBBLE_SPACE * 2 - messageSize.width - MSG_TO_BUBBLE_HEAD_OFFSET - MSG_TO_BUBBLE_TAIL_OFFSET;
         xHead = CELL_WIDTH - BUBBLE_HEAD_SIZE - BUBBLE_SPACE;
@@ -100,6 +101,7 @@
         topCapHeight = 17;
         msgBubbleOffset = MSG_TO_BUBBLE_HEAD_OFFSET;
         
+        [_headView setImage:[UIImage imageNamed:@"001@2x"]];
         [_headView setBackgroundColor:[UIColor redColor]];
     } else {
         x = BUBBLE_HEAD_SIZE + BUBBLE_SPACE * 2;
@@ -109,6 +111,7 @@
         topCapHeight = 17;
         msgBubbleOffset = MSG_TO_BUBBLE_TAIL_OFFSET;
         
+        [_headView setImage:[UIImage imageNamed:@"012@2x"]];
         [_headView setBackgroundColor:[UIColor greenColor]];
     }
     
@@ -130,7 +133,10 @@
         } else {
             yHead = y - (BUBBLE_HEAD_SIZE - bubbleViewRect.size.height);
         }
+    } else {
+        yHead = _sendDate.frame.size.height;
     }
+
     CGRect headRect = CGRectMake(xHead, yHead, BUBBLE_HEAD_SIZE, BUBBLE_HEAD_SIZE);
     
     [_headView setFrame:headRect];

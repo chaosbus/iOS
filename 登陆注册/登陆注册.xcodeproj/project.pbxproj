@@ -10,11 +10,9 @@
 		D81CE5C3199A00860049404D /* sel.png in Resources */ = {isa = PBXBuildFile; fileRef = D81CE5C1199A00860049404D /* sel.png */; };
 		D81CE5C4199A00860049404D /* unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = D81CE5C2199A00860049404D /* unsel.png */; };
 		D81CE5C6199A04920049404D /* cbox0.png in Resources */ = {isa = PBXBuildFile; fileRef = D81CE5C5199A04920049404D /* cbox0.png */; };
-		D81CE5C8199A04980049404D /* cbox1.png in Resources */ = {isa = PBXBuildFile; fileRef = D81CE5C7199A04980049404D /* cbox1.png */; };
 		D82DF19B19989F04005299DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF19A19989F04005299DF /* Foundation.framework */; };
 		D82DF19D19989F04005299DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF19C19989F04005299DF /* CoreGraphics.framework */; };
 		D82DF19F19989F04005299DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF19E19989F04005299DF /* UIKit.framework */; };
-		D82DF1A519989F04005299DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D82DF1A319989F04005299DF /* InfoPlist.strings */; };
 		D82DF1A719989F04005299DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D82DF1A619989F04005299DF /* main.m */; };
 		D82DF1AB19989F04005299DF /* ExamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D82DF1AA19989F04005299DF /* ExamAppDelegate.m */; };
 		D82DF1AE19989F04005299DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82DF1AC19989F04005299DF /* Main.storyboard */; };
@@ -23,9 +21,12 @@
 		D82DF1BA19989F04005299DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF1B919989F04005299DF /* XCTest.framework */; };
 		D82DF1BB19989F04005299DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF19A19989F04005299DF /* Foundation.framework */; };
 		D82DF1BC19989F04005299DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF19E19989F04005299DF /* UIKit.framework */; };
-		D82DF1C419989F04005299DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D82DF1C219989F04005299DF /* InfoPlist.strings */; };
 		D82DF1C619989F04005299DF /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82DF1C519989F04005299DF /* ____Tests.m */; };
 		D82DF2151998B16C005299DF /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82DF2141998B16C005299DF /* RegistViewController.m */; };
+		D892A22319E622DE009088A7 /* SaveIt.m in Sources */ = {isa = PBXBuildFile; fileRef = D892A22219E622DE009088A7 /* SaveIt.m */; };
+		D8B36EF719E5283900C5FA27 /* cbox1.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B36EF919E5283900C5FA27 /* cbox1.png */; };
+		D8B36F0019E528F000C5FA27 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B36F0219E528F000C5FA27 /* flag.png */; };
+		D8B36F0519E5290D00C5FA27 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B36F0719E5290D00C5FA27 /* flag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +43,11 @@
 		D81CE5C1199A00860049404D /* sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sel.png; sourceTree = "<group>"; };
 		D81CE5C2199A00860049404D /* unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unsel.png; sourceTree = "<group>"; };
 		D81CE5C5199A04920049404D /* cbox0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbox0.png; sourceTree = "<group>"; };
-		D81CE5C7199A04980049404D /* cbox1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbox1.png; sourceTree = "<group>"; };
 		D82DF19719989F04005299DF /* 登陆注册.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "登陆注册.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82DF19A19989F04005299DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D82DF19C19989F04005299DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D82DF19E19989F04005299DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D82DF1A219989F04005299DF /* 登陆注册-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "登陆注册-Info.plist"; sourceTree = "<group>"; };
-		D82DF1A419989F04005299DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D82DF1A619989F04005299DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D82DF1A819989F04005299DF /* 登陆注册-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "登陆注册-Prefix.pch"; sourceTree = "<group>"; };
 		D82DF1A919989F04005299DF /* ExamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExamAppDelegate.h; sourceTree = "<group>"; };
@@ -60,11 +59,17 @@
 		D82DF1B819989F04005299DF /* 登陆注册Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "登陆注册Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82DF1B919989F04005299DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D82DF1C119989F04005299DF /* 登陆注册Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "登陆注册Tests-Info.plist"; sourceTree = "<group>"; };
-		D82DF1C319989F04005299DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D82DF1C519989F04005299DF /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		D82DF2131998B16C005299DF /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
 		D82DF2141998B16C005299DF /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
 		D83CA720199AFB670055ADF4 /* KeyboardHiden.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardHiden.h; sourceTree = "<group>"; };
+		D892A22119E622DE009088A7 /* SaveIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveIt.h; sourceTree = "<group>"; };
+		D892A22219E622DE009088A7 /* SaveIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveIt.m; sourceTree = "<group>"; };
+		D8B36EF519E520E400C5FA27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		D8B36EF619E520EC00C5FA27 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D8B36EF819E5283900C5FA27 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/cbox1.png; sourceTree = "<group>"; };
+		D8B36F0119E528F000C5FA27 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/flag.png; sourceTree = "<group>"; };
+		D8B36F0619E5290D00C5FA27 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/flag.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +99,9 @@
 		D81CE5C0199A00570049404D /* png */ = {
 			isa = PBXGroup;
 			children = (
-				D81CE5C7199A04980049404D /* cbox1.png */,
+				D8B36F0719E5290D00C5FA27 /* flag.png */,
+				D8B36F0219E528F000C5FA27 /* flag.png */,
+				D8B36EF919E5283900C5FA27 /* cbox1.png */,
 				D81CE5C5199A04920049404D /* cbox0.png */,
 				D81CE5C1199A00860049404D /* sel.png */,
 				D81CE5C2199A00860049404D /* unsel.png */,
@@ -141,6 +148,8 @@
 				D82DF1AC19989F04005299DF /* Main.storyboard */,
 				D82DF1AF19989F04005299DF /* ExamViewController.h */,
 				D82DF1B019989F04005299DF /* ExamViewController.m */,
+				D892A22119E622DE009088A7 /* SaveIt.h */,
+				D892A22219E622DE009088A7 /* SaveIt.m */,
 				D83CA720199AFB670055ADF4 /* KeyboardHiden.h */,
 				D82DF1B219989F04005299DF /* Images.xcassets */,
 				D82DF1A119989F04005299DF /* Supporting Files */,
@@ -154,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				D82DF1A219989F04005299DF /* 登陆注册-Info.plist */,
-				D82DF1A319989F04005299DF /* InfoPlist.strings */,
 				D82DF1A619989F04005299DF /* main.m */,
 				D82DF1A819989F04005299DF /* 登陆注册-Prefix.pch */,
 			);
@@ -174,7 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				D82DF1C119989F04005299DF /* 登陆注册Tests-Info.plist */,
-				D82DF1C219989F04005299DF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -237,7 +244,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = D82DF18E19989F04005299DF;
@@ -257,10 +263,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D82DF1B319989F04005299DF /* Images.xcassets in Resources */,
-				D81CE5C8199A04980049404D /* cbox1.png in Resources */,
-				D82DF1A519989F04005299DF /* InfoPlist.strings in Resources */,
+				D8B36EF719E5283900C5FA27 /* cbox1.png in Resources */,
 				D81CE5C4199A00860049404D /* unsel.png in Resources */,
+				D8B36F0019E528F000C5FA27 /* flag.png in Resources */,
 				D81CE5C3199A00860049404D /* sel.png in Resources */,
+				D8B36F0519E5290D00C5FA27 /* flag.png in Resources */,
 				D81CE5C6199A04920049404D /* cbox0.png in Resources */,
 				D82DF1AE19989F04005299DF /* Main.storyboard in Resources */,
 			);
@@ -270,7 +277,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D82DF1C419989F04005299DF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +289,7 @@
 			files = (
 				D82DF1A719989F04005299DF /* main.m in Sources */,
 				D82DF1AB19989F04005299DF /* ExamAppDelegate.m in Sources */,
+				D892A22319E622DE009088A7 /* SaveIt.m in Sources */,
 				D82DF2151998B16C005299DF /* RegistViewController.m in Sources */,
 				D82DF1B119989F04005299DF /* ExamViewController.m in Sources */,
 			);
@@ -307,28 +314,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D82DF1A319989F04005299DF /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D82DF1A419989F04005299DF /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		D82DF1AC19989F04005299DF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D82DF1AD19989F04005299DF /* Base */,
+				D8B36EF519E520E400C5FA27 /* en */,
+				D8B36EF619E520EC00C5FA27 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D82DF1C219989F04005299DF /* InfoPlist.strings */ = {
+		D8B36EF919E5283900C5FA27 /* cbox1.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D82DF1C319989F04005299DF /* en */,
+				D8B36EF819E5283900C5FA27 /* en */,
 			);
-			name = InfoPlist.strings;
+			name = cbox1.png;
+			sourceTree = "<group>";
+		};
+		D8B36F0219E528F000C5FA27 /* flag.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B36F0119E528F000C5FA27 /* en */,
+			);
+			name = flag.png;
+			sourceTree = "<group>";
+		};
+		D8B36F0719E5290D00C5FA27 /* flag.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B36F0619E5290D00C5FA27 /* zh-Hans */,
+			);
+			name = flag.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
