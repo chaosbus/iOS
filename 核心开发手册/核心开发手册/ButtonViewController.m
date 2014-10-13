@@ -17,12 +17,28 @@
 
 @implementation ButtonViewController
 
+- (void)loadView
+{
+    [super loadView];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
-    self.navigationItem.title = @"on";
+    
+    //    self.navigationItem.title = @"on";
     [self addButton];
+    [self recenter];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,6 +55,7 @@
     // Pass the selected object to the new view controller.
 }
 */
+
 - (void)myTitle:(AnimateButton *)button
 {
     self.navigationItem.title = (button.isOn == YES) ? @"on" : @"off";
@@ -52,18 +69,13 @@
     [btn addTarget:self action:@selector(myTitle:) forControlEvents:UIControlEventTouchUpInside];
 }
 
-- (void) recenter
+- (void)recenter
 {
     btn.center = CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds));
 
 }
 
-- (void) viewDidAppear:(BOOL)animated
-{
-    [self recenter];
-}
-
-- (void) didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
 {
     [self recenter];
 }

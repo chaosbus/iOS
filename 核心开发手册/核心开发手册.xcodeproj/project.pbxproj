@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D83FE90C19E8C76B002F859B /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83FE90B19E8C76B002F859B /* AlertViewController.m */; };
+		D83FE91019E90559002F859B /* RectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83FE90F19E90559002F859B /* RectViewController.m */; };
+		D83FE91419E9243E002F859B /* StarRank.m in Sources */ = {isa = PBXBuildFile; fileRef = D83FE91319E9243E002F859B /* StarRank.m */; };
+		D83FE91819E92543002F859B /* Star-White-Half.png in Resources */ = {isa = PBXBuildFile; fileRef = D83FE91619E92543002F859B /* Star-White-Half.png */; };
+		D83FE91919E92543002F859B /* Star-White.png in Resources */ = {isa = PBXBuildFile; fileRef = D83FE91719E92543002F859B /* Star-White.png */; };
+		D8425A9319EBA99B0070EAA1 /* StarRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8425A9219EBA99B0070EAA1 /* StarRankViewController.m */; };
 		D87A25DA19D4FBA60067FD5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A25D919D4FBA60067FD5A /* main.m */; };
 		D87A25DD19D4FBA60067FD5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A25DC19D4FBA60067FD5A /* AppDelegate.m */; };
 		D87A25E019D4FBA60067FD5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A25DF19D4FBA60067FD5A /* ViewController.m */; };
@@ -23,6 +29,8 @@
 		D8AA752D19D540040058C50F /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AA752C19D540040058C50F /* SliderViewController.m */; };
 		D8AA753019D540E40058C50F /* DiySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AA752F19D540E40058C50F /* DiySlider.m */; };
 		D8AA753319D55BC00058C50F /* Switzerland.png in Resources */ = {isa = PBXBuildFile; fileRef = D8AA753219D55BC00058C50F /* Switzerland.png */; };
+		D8FB109019E786BB0007B700 /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FB108F19E786BB0007B700 /* ContentsViewController.m */; };
+		D8FB109419E7AADD0007B700 /* ClassIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FB109319E7AADD0007B700 /* ClassIndex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D83FE90A19E8C76B002F859B /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		D83FE90B19E8C76B002F859B /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		D83FE90E19E90559002F859B /* RectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectViewController.h; sourceTree = "<group>"; };
+		D83FE90F19E90559002F859B /* RectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectViewController.m; sourceTree = "<group>"; };
+		D83FE91219E9243E002F859B /* StarRank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRank.h; sourceTree = "<group>"; };
+		D83FE91319E9243E002F859B /* StarRank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRank.m; sourceTree = "<group>"; };
+		D83FE91619E92543002F859B /* Star-White-Half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-White-Half.png"; sourceTree = "<group>"; };
+		D83FE91719E92543002F859B /* Star-White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-White.png"; sourceTree = "<group>"; };
+		D8425A9119EBA99B0070EAA1 /* StarRankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRankViewController.h; sourceTree = "<group>"; };
+		D8425A9219EBA99B0070EAA1 /* StarRankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRankViewController.m; sourceTree = "<group>"; };
 		D87A25D419D4FBA60067FD5A /* 核心开发手册.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "核心开发手册.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87A25D819D4FBA60067FD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D87A25D919D4FBA60067FD5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +80,10 @@
 		D8AA752E19D540E40058C50F /* DiySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiySlider.h; sourceTree = "<group>"; };
 		D8AA752F19D540E40058C50F /* DiySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiySlider.m; sourceTree = "<group>"; };
 		D8AA753219D55BC00058C50F /* Switzerland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Switzerland.png; sourceTree = "<group>"; };
+		D8FB108E19E786BB0007B700 /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsViewController.h; sourceTree = "<group>"; };
+		D8FB108F19E786BB0007B700 /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsViewController.m; sourceTree = "<group>"; };
+		D8FB109219E7AADD0007B700 /* ClassIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassIndex.h; sourceTree = "<group>"; };
+		D8FB109319E7AADD0007B700 /* ClassIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassIndex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +104,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D83FE90819E8C3F7002F859B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D87A25DB19D4FBA60067FD5A /* AppDelegate.h */,
+				D87A25DC19D4FBA60067FD5A /* AppDelegate.m */,
+				D87A25DE19D4FBA60067FD5A /* ViewController.h */,
+				D87A25DF19D4FBA60067FD5A /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D83FE90919E8C73C002F859B /* 警告框 */ = {
+			isa = PBXGroup;
+			children = (
+				D83FE90A19E8C76B002F859B /* AlertViewController.h */,
+				D83FE90B19E8C76B002F859B /* AlertViewController.m */,
+			);
+			name = "警告框";
+			sourceTree = "<group>";
+		};
+		D83FE90D19E90540002F859B /* Rect测试 */ = {
+			isa = PBXGroup;
+			children = (
+				D83FE90E19E90559002F859B /* RectViewController.h */,
+				D83FE90F19E90559002F859B /* RectViewController.m */,
+			);
+			name = "Rect测试";
+			sourceTree = "<group>";
+		};
+		D83FE91119E92423002F859B /* 评星 */ = {
+			isa = PBXGroup;
+			children = (
+				D83FE91519E92531002F859B /* image */,
+				D83FE91219E9243E002F859B /* StarRank.h */,
+				D83FE91319E9243E002F859B /* StarRank.m */,
+				D8425A9119EBA99B0070EAA1 /* StarRankViewController.h */,
+				D8425A9219EBA99B0070EAA1 /* StarRankViewController.m */,
+			);
+			name = "评星";
+			sourceTree = "<group>";
+		};
+		D83FE91519E92531002F859B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				D83FE91619E92543002F859B /* Star-White-Half.png */,
+				D83FE91719E92543002F859B /* Star-White.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 		D87A25CB19D4FBA60067FD5A = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +175,8 @@
 		D87A25D619D4FBA60067FD5A /* 核心开发手册 */ = {
 			isa = PBXGroup;
 			children = (
-				D87A25FD19D503620067FD5A /* Step1 */,
-				D8AA752A19D53E680058C50F /* Step2 */,
-				D87A25DB19D4FBA60067FD5A /* AppDelegate.h */,
-				D87A25DC19D4FBA60067FD5A /* AppDelegate.m */,
-				D87A25DE19D4FBA60067FD5A /* ViewController.h */,
-				D87A25DF19D4FBA60067FD5A /* ViewController.m */,
+				D83FE90819E8C3F7002F859B /* Controller */,
+				D8FB109519E7C2110007B700 /* 目录 */,
 				D87A25E119D4FBA60067FD5A /* Main.storyboard */,
 				D87A25E419D4FBA60067FD5A /* Images.xcassets */,
 				D87A25E619D4FBA60067FD5A /* LaunchScreen.xib */,
@@ -143,7 +211,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D87A25FD19D503620067FD5A /* Step1 */ = {
+		D87A25FD19D503620067FD5A /* 动画按键 */ = {
 			isa = PBXGroup;
 			children = (
 				D87A25FE19D503680067FD5A /* Art */,
@@ -152,7 +220,7 @@
 				D87A25FF19D503960067FD5A /* ButtonViewController.h */,
 				D87A260019D503960067FD5A /* ButtonViewController.m */,
 			);
-			name = Step1;
+			name = "动画按键";
 			sourceTree = "<group>";
 		};
 		D87A25FE19D503680067FD5A /* Art */ = {
@@ -166,24 +234,48 @@
 			name = Art;
 			sourceTree = "<group>";
 		};
-		D8AA752A19D53E680058C50F /* Step2 */ = {
+		D8AA752A19D53E680058C50F /* Slider */ = {
 			isa = PBXGroup;
 			children = (
-				D8AA753119D55BA60058C50F /* New Group */,
+				D8AA753119D55BA60058C50F /* image */,
 				D8AA752E19D540E40058C50F /* DiySlider.h */,
 				D8AA752F19D540E40058C50F /* DiySlider.m */,
 				D8AA752B19D540040058C50F /* SliderViewController.h */,
 				D8AA752C19D540040058C50F /* SliderViewController.m */,
 			);
-			name = Step2;
+			name = Slider;
 			sourceTree = "<group>";
 		};
-		D8AA753119D55BA60058C50F /* New Group */ = {
+		D8AA753119D55BA60058C50F /* image */ = {
 			isa = PBXGroup;
 			children = (
 				D8AA753219D55BC00058C50F /* Switzerland.png */,
 			);
-			name = "New Group";
+			name = image;
+			sourceTree = "<group>";
+		};
+		D8FB109119E7AAAA0007B700 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB109219E7AADD0007B700 /* ClassIndex.h */,
+				D8FB109319E7AADD0007B700 /* ClassIndex.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		D8FB109519E7C2110007B700 /* 目录 */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB109119E7AAAA0007B700 /* Class */,
+				D83FE91119E92423002F859B /* 评星 */,
+				D83FE90D19E90540002F859B /* Rect测试 */,
+				D87A25FD19D503620067FD5A /* 动画按键 */,
+				D8AA752A19D53E680058C50F /* Slider */,
+				D83FE90919E8C73C002F859B /* 警告框 */,
+				D8FB108E19E786BB0007B700 /* ContentsViewController.h */,
+				D8FB108F19E786BB0007B700 /* ContentsViewController.m */,
+			);
+			name = "目录";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,12 +360,14 @@
 			files = (
 				D87A260B19D5067B0067FD5A /* red-in.png in Resources */,
 				D8AA753319D55BC00058C50F /* Switzerland.png in Resources */,
+				D83FE91819E92543002F859B /* Star-White-Half.png in Resources */,
 				D87A260919D5067B0067FD5A /* green-in.png in Resources */,
 				D87A260C19D5067B0067FD5A /* red-out.png in Resources */,
 				D87A260A19D5067B0067FD5A /* green-out.png in Resources */,
 				D87A25E319D4FBA60067FD5A /* Main.storyboard in Resources */,
 				D87A25E819D4FBA60067FD5A /* LaunchScreen.xib in Resources */,
 				D87A25E519D4FBA60067FD5A /* Images.xcassets in Resources */,
+				D83FE91919E92543002F859B /* Star-White.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,13 +385,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8FB109019E786BB0007B700 /* ContentsViewController.m in Sources */,
+				D83FE90C19E8C76B002F859B /* AlertViewController.m in Sources */,
 				D87A260119D503960067FD5A /* ButtonViewController.m in Sources */,
+				D8425A9319EBA99B0070EAA1 /* StarRankViewController.m in Sources */,
 				D8AA752D19D540040058C50F /* SliderViewController.m in Sources */,
 				D8AA753019D540E40058C50F /* DiySlider.m in Sources */,
 				D87A25E019D4FBA60067FD5A /* ViewController.m in Sources */,
+				D8FB109419E7AADD0007B700 /* ClassIndex.m in Sources */,
 				D87A260419D504E50067FD5A /* AnimateButton.m in Sources */,
 				D87A25DD19D4FBA60067FD5A /* AppDelegate.m in Sources */,
 				D87A25DA19D4FBA60067FD5A /* main.m in Sources */,
+				D83FE91019E90559002F859B /* RectViewController.m in Sources */,
+				D83FE91419E9243E002F859B /* StarRank.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -408,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -420,6 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "核心开发手册/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -431,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "核心开发手册/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
