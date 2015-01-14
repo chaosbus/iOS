@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D89C36FE19F8A83A004DC479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D89C36FD19F8A83A004DC479 /* main.m */; };
+		D89C370119F8A83A004DC479 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D89C370019F8A83A004DC479 /* AppDelegate.m */; };
+		D89C370419F8A83A004DC479 /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D89C370219F8A83A004DC479 /* ____.xcdatamodeld */; };
+		D89C370719F8A83A004DC479 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89C370619F8A83A004DC479 /* ViewController.m */; };
+		D89C370C19F8A83A004DC479 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89C370B19F8A83A004DC479 /* Images.xcassets */; };
+		D89C370F19F8A83A004DC479 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D89C370D19F8A83A004DC479 /* LaunchScreen.xib */; };
+		D89C371B19F8A83A004DC479 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D89C371A19F8A83A004DC479 /* ____Tests.m */; };
+		D89C372719F8AC19004DC479 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89C372619F8AC19004DC479 /* NavViewController.m */; };
+		D89C372D19F8AFDD004DC479 /* CurrencyConvertorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89C372C19F8AFDD004DC479 /* CurrencyConvertorViewController.m */; };
+		D89C373119F8CCF6004DC479 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89C373019F8CCF6004DC479 /* SettingTableViewController.m */; };
+		D89C373519F8CF2C004DC479 /* SwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D89C373419F8CF2C004DC479 /* SwitchCell.m */; };
+		D89C373819F8CF4B004DC479 /* DisclosureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D89C373719F8CF4B004DC479 /* DisclosureCell.m */; };
+		D89C373B19F8CFD6004DC479 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = D89C373A19F8CFD6004DC479 /* Settings.plist */; };
+		D89C373F19F8E161004DC479 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89C373E19F8E161004DC479 /* TopViewController.m */; };
+		D89C374219F8E2F5004DC479 /* CCTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = D89C374119F8E2F5004DC479 /* CCTopView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D89C371519F8A83A004DC479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D89C36F019F8A83A004DC479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89C36F719F8A83A004DC479;
+			remoteInfo = "汇率换算";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D89C36F819F8A83A004DC479 /* 汇率换算.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "汇率换算.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89C36FC19F8A83A004DC479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89C36FD19F8A83A004DC479 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D89C36FF19F8A83A004DC479 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D89C370019F8A83A004DC479 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D89C370319F8A83A004DC479 /* ____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "____.xcdatamodel"; sourceTree = "<group>"; };
+		D89C370519F8A83A004DC479 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D89C370619F8A83A004DC479 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D89C370B19F8A83A004DC479 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D89C370E19F8A83A004DC479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D89C371419F8A83A004DC479 /* 汇率换算Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "汇率换算Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89C371919F8A83A004DC479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89C371A19F8A83A004DC479 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		D89C372519F8AC19004DC479 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		D89C372619F8AC19004DC479 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		D89C372B19F8AFDD004DC479 /* CurrencyConvertorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConvertorViewController.h; sourceTree = "<group>"; };
+		D89C372C19F8AFDD004DC479 /* CurrencyConvertorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyConvertorViewController.m; sourceTree = "<group>"; };
+		D89C372F19F8CCF6004DC479 /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		D89C373019F8CCF6004DC479 /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		D89C373319F8CF2C004DC479 /* SwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchCell.h; sourceTree = "<group>"; };
+		D89C373419F8CF2C004DC479 /* SwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchCell.m; sourceTree = "<group>"; };
+		D89C373619F8CF4B004DC479 /* DisclosureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureCell.h; sourceTree = "<group>"; };
+		D89C373719F8CF4B004DC479 /* DisclosureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureCell.m; sourceTree = "<group>"; };
+		D89C373A19F8CFD6004DC479 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		D89C373D19F8E161004DC479 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		D89C373E19F8E161004DC479 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		D89C374019F8E2F5004DC479 /* CCTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTopView.h; sourceTree = "<group>"; };
+		D89C374119F8E2F5004DC479 /* CCTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTopView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D89C36F519F8A83A004DC479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89C371119F8A83A004DC479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D89C36EF19F8A83A004DC479 = {
+			isa = PBXGroup;
+			children = (
+				D89C36FA19F8A83A004DC479 /* 汇率换算 */,
+				D89C371719F8A83A004DC479 /* 汇率换算Tests */,
+				D89C36F919F8A83A004DC479 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D89C36F919F8A83A004DC479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D89C36F819F8A83A004DC479 /* 汇率换算.app */,
+				D89C371419F8A83A004DC479 /* 汇率换算Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89C36FA19F8A83A004DC479 /* 汇率换算 */ = {
+			isa = PBXGroup;
+			children = (
+				D89C372419F8A841004DC479 /* Controller */,
+				D89C370B19F8A83A004DC479 /* Images.xcassets */,
+				D89C370D19F8A83A004DC479 /* LaunchScreen.xib */,
+				D89C370219F8A83A004DC479 /* ____.xcdatamodeld */,
+				D89C36FB19F8A83A004DC479 /* Supporting Files */,
+				D89C373219F8CDF2004DC479 /* Setting */,
+				D89C372E19F8CCDA004DC479 /* Main */,
+			);
+			path = "汇率换算";
+			sourceTree = "<group>";
+		};
+		D89C36FB19F8A83A004DC479 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D89C36FC19F8A83A004DC479 /* Info.plist */,
+				D89C36FD19F8A83A004DC479 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D89C371719F8A83A004DC479 /* 汇率换算Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D89C371A19F8A83A004DC479 /* ____Tests.m */,
+				D89C371819F8A83A004DC479 /* Supporting Files */,
+			);
+			path = "汇率换算Tests";
+			sourceTree = "<group>";
+		};
+		D89C371819F8A83A004DC479 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D89C371919F8A83A004DC479 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D89C372419F8A841004DC479 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D89C36FF19F8A83A004DC479 /* AppDelegate.h */,
+				D89C370019F8A83A004DC479 /* AppDelegate.m */,
+				D89C370519F8A83A004DC479 /* ViewController.h */,
+				D89C370619F8A83A004DC479 /* ViewController.m */,
+				D89C372519F8AC19004DC479 /* NavViewController.h */,
+				D89C372619F8AC19004DC479 /* NavViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D89C372E19F8CCDA004DC479 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D89C373C19F8DCF5004DC479 /* New Group */,
+				D89C372B19F8AFDD004DC479 /* CurrencyConvertorViewController.h */,
+				D89C372C19F8AFDD004DC479 /* CurrencyConvertorViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D89C373219F8CDF2004DC479 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				D89C373919F8CF60004DC479 /* Cell */,
+				D89C372F19F8CCF6004DC479 /* SettingTableViewController.h */,
+				D89C373019F8CCF6004DC479 /* SettingTableViewController.m */,
+				D89C373A19F8CFD6004DC479 /* Settings.plist */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		D89C373919F8CF60004DC479 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D89C373319F8CF2C004DC479 /* SwitchCell.h */,
+				D89C373419F8CF2C004DC479 /* SwitchCell.m */,
+				D89C373619F8CF4B004DC479 /* DisclosureCell.h */,
+				D89C373719F8CF4B004DC479 /* DisclosureCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		D89C373C19F8DCF5004DC479 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				D89C373D19F8E161004DC479 /* TopViewController.h */,
+				D89C373E19F8E161004DC479 /* TopViewController.m */,
+				D89C374019F8E2F5004DC479 /* CCTopView.h */,
+				D89C374119F8E2F5004DC479 /* CCTopView.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D89C36F719F8A83A004DC479 /* 汇率换算 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89C371E19F8A83A004DC479 /* Build configuration list for PBXNativeTarget "汇率换算" */;
+			buildPhases = (
+				D89C36F419F8A83A004DC479 /* Sources */,
+				D89C36F519F8A83A004DC479 /* Frameworks */,
+				D89C36F619F8A83A004DC479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "汇率换算";
+			productName = "汇率换算";
+			productReference = D89C36F819F8A83A004DC479 /* 汇率换算.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D89C371319F8A83A004DC479 /* 汇率换算Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89C372119F8A83A004DC479 /* Build configuration list for PBXNativeTarget "汇率换算Tests" */;
+			buildPhases = (
+				D89C371019F8A83A004DC479 /* Sources */,
+				D89C371119F8A83A004DC479 /* Frameworks */,
+				D89C371219F8A83A004DC479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D89C371619F8A83A004DC479 /* PBXTargetDependency */,
+			);
+			name = "汇率换算Tests";
+			productName = "汇率换算Tests";
+			productReference = D89C371419F8A83A004DC479 /* 汇率换算Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D89C36F019F8A83A004DC479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Joe;
+				TargetAttributes = {
+					D89C36F719F8A83A004DC479 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D89C371319F8A83A004DC479 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D89C36F719F8A83A004DC479;
+					};
+				};
+			};
+			buildConfigurationList = D89C36F319F8A83A004DC479 /* Build configuration list for PBXProject "汇率换算" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D89C36EF19F8A83A004DC479;
+			productRefGroup = D89C36F919F8A83A004DC479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D89C36F719F8A83A004DC479 /* 汇率换算 */,
+				D89C371319F8A83A004DC479 /* 汇率换算Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D89C36F619F8A83A004DC479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89C370F19F8A83A004DC479 /* LaunchScreen.xib in Resources */,
+				D89C370C19F8A83A004DC479 /* Images.xcassets in Resources */,
+				D89C373B19F8CFD6004DC479 /* Settings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89C371219F8A83A004DC479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D89C36F419F8A83A004DC479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89C373F19F8E161004DC479 /* TopViewController.m in Sources */,
+				D89C370119F8A83A004DC479 /* AppDelegate.m in Sources */,
+				D89C373519F8CF2C004DC479 /* SwitchCell.m in Sources */,
+				D89C370419F8A83A004DC479 /* ____.xcdatamodeld in Sources */,
+				D89C373119F8CCF6004DC479 /* SettingTableViewController.m in Sources */,
+				D89C374219F8E2F5004DC479 /* CCTopView.m in Sources */,
+				D89C370719F8A83A004DC479 /* ViewController.m in Sources */,
+				D89C36FE19F8A83A004DC479 /* main.m in Sources */,
+				D89C372D19F8AFDD004DC479 /* CurrencyConvertorViewController.m in Sources */,
+				D89C372719F8AC19004DC479 /* NavViewController.m in Sources */,
+				D89C373819F8CF4B004DC479 /* DisclosureCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89C371019F8A83A004DC479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89C371B19F8A83A004DC479 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D89C371619F8A83A004DC479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D89C36F719F8A83A004DC479 /* 汇率换算 */;
+			targetProxy = D89C371519F8A83A004DC479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D89C370D19F8A83A004DC479 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D89C370E19F8A83A004DC479 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D89C371C19F8A83A004DC479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D89C371D19F8A83A004DC479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D89C371F19F8A83A004DC479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "汇率换算/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D89C372019F8A83A004DC479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "汇率换算/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D89C372219F8A83A004DC479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "汇率换算Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/汇率换算.app/汇率换算";
+			};
+			name = Debug;
+		};
+		D89C372319F8A83A004DC479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "汇率换算Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/汇率换算.app/汇率换算";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D89C36F319F8A83A004DC479 /* Build configuration list for PBXProject "汇率换算" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89C371C19F8A83A004DC479 /* Debug */,
+				D89C371D19F8A83A004DC479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89C371E19F8A83A004DC479 /* Build configuration list for PBXNativeTarget "汇率换算" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89C371F19F8A83A004DC479 /* Debug */,
+				D89C372019F8A83A004DC479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D89C372119F8A83A004DC479 /* Build configuration list for PBXNativeTarget "汇率换算Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89C372219F8A83A004DC479 /* Debug */,
+				D89C372319F8A83A004DC479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D89C370219F8A83A004DC479 /* ____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D89C370319F8A83A004DC479 /* ____.xcdatamodel */,
+			);
+			currentVersion = D89C370319F8A83A004DC479 /* ____.xcdatamodel */;
+			path = "____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D89C36F019F8A83A004DC479 /* Project object */;
+}

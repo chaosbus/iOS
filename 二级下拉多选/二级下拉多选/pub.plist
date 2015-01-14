@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>01银行</key>
+	<array>
+		<string>信贷</string>
+		<string>信用卡</string>
+		<string>理财</string>
+	</array>
+	<key>02证券</key>
+	<array>
+		<string>股票</string>
+		<string>债券</string>
+		<string>基金</string>
+	</array>
+	<key>03保险</key>
+	<array>
+		<string>人保</string>
+		<string>平安</string>
+	</array>
+</dict>
+</plist>

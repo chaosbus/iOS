@@ -13,6 +13,17 @@
 		D83FE91819E92543002F859B /* Star-White-Half.png in Resources */ = {isa = PBXBuildFile; fileRef = D83FE91619E92543002F859B /* Star-White-Half.png */; };
 		D83FE91919E92543002F859B /* Star-White.png in Resources */ = {isa = PBXBuildFile; fileRef = D83FE91719E92543002F859B /* Star-White.png */; };
 		D8425A9319EBA99B0070EAA1 /* StarRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8425A9219EBA99B0070EAA1 /* StarRankViewController.m */; };
+		D850399C19ECBDC90046E04B /* RibbonPull.m in Sources */ = {isa = PBXBuildFile; fileRef = D850399B19ECBDC90046E04B /* RibbonPull.m */; };
+		D850399F19ECBF8D0046E04B /* RibbonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D850399E19ECBF8D0046E04B /* RibbonViewController.m */; };
+		D85039A319ECF79E0046E04B /* FindSubViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85039A219ECF79E0046E04B /* FindSubViewViewController.m */; };
+		D85522BB19EE624700EA6783 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85522BA19EE624700EA6783 /* KeyboardViewController.m */; };
+		D85522C119EE668600EA6783 /* Algeria.png in Resources */ = {isa = PBXBuildFile; fileRef = D85522BD19EE668600EA6783 /* Algeria.png */; };
+		D85522C219EE668600EA6783 /* Argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = D85522BE19EE668600EA6783 /* Argentina.png */; };
+		D85522C319EE668600EA6783 /* Chile.png in Resources */ = {isa = PBXBuildFile; fileRef = D85522BF19EE668600EA6783 /* Chile.png */; };
+		D85522C419EE668600EA6783 /* CoteDIvoire.png in Resources */ = {isa = PBXBuildFile; fileRef = D85522C019EE668600EA6783 /* CoteDIvoire.png */; };
+		D86BA7D019F74C010094EBB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86BA7CF19F74C010094EBB5 /* UIKit.framework */; };
+		D86BA7D319F74C580094EBB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86BA7D219F74C580094EBB5 /* Foundation.framework */; };
+		D86BA7D519F74C620094EBB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86BA7D419F74C620094EBB5 /* CoreGraphics.framework */; };
 		D87A25DA19D4FBA60067FD5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A25D919D4FBA60067FD5A /* main.m */; };
 		D87A25DD19D4FBA60067FD5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A25DC19D4FBA60067FD5A /* AppDelegate.m */; };
 		D87A25E019D4FBA60067FD5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A25DF19D4FBA60067FD5A /* ViewController.m */; };
@@ -26,6 +37,15 @@
 		D87A260A19D5067B0067FD5A /* green-out.png in Resources */ = {isa = PBXBuildFile; fileRef = D87A260619D5067B0067FD5A /* green-out.png */; };
 		D87A260B19D5067B0067FD5A /* red-in.png in Resources */ = {isa = PBXBuildFile; fileRef = D87A260719D5067B0067FD5A /* red-in.png */; };
 		D87A260C19D5067B0067FD5A /* red-out.png in Resources */ = {isa = PBXBuildFile; fileRef = D87A260819D5067B0067FD5A /* red-out.png */; };
+		D88D913819F600C10078EB6B /* Touch1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D913719F600C10078EB6B /* Touch1ViewController.m */; };
+		D88D913B19F600DF0078EB6B /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D913A19F600DF0078EB6B /* DragView.m */; };
+		D894AAA619F62ED3002877BB /* Drag2View.m in Sources */ = {isa = PBXBuildFile; fileRef = D894AAA519F62ED3002877BB /* Drag2View.m */; };
+		D894AAA919F634A6002877BB /* Touch2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D894AAA819F634A6002877BB /* Touch2ViewController.m */; };
+		D894AAAB19F634E7002877BB /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = D894AAAA19F634E7002877BB /* sun.png */; };
+		D89DF64B19EF5DC10029D5C6 /* ToolViewEmotion_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D89DF64719EF5DC10029D5C6 /* ToolViewEmotion_ios7@2x.png */; };
+		D89DF64C19EF5DC10029D5C6 /* ToolViewInputVoice_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D89DF64819EF5DC10029D5C6 /* ToolViewInputVoice_ios7@2x.png */; };
+		D89DF64D19EF5DC10029D5C6 /* ToolViewKeyboard_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D89DF64919EF5DC10029D5C6 /* ToolViewKeyboard_ios7@2x.png */; };
+		D89DF64E19EF5DC10029D5C6 /* TypeSelectorBtn_Black_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D89DF64A19EF5DC10029D5C6 /* TypeSelectorBtn_Black_ios7@2x.png */; };
 		D8AA752D19D540040058C50F /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AA752C19D540040058C50F /* SliderViewController.m */; };
 		D8AA753019D540E40058C50F /* DiySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AA752F19D540E40058C50F /* DiySlider.m */; };
 		D8AA753319D55BC00058C50F /* Switzerland.png in Resources */ = {isa = PBXBuildFile; fileRef = D8AA753219D55BC00058C50F /* Switzerland.png */; };
@@ -54,6 +74,21 @@
 		D83FE91719E92543002F859B /* Star-White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-White.png"; sourceTree = "<group>"; };
 		D8425A9119EBA99B0070EAA1 /* StarRankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRankViewController.h; sourceTree = "<group>"; };
 		D8425A9219EBA99B0070EAA1 /* StarRankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRankViewController.m; sourceTree = "<group>"; };
+		D850399A19ECBDC90046E04B /* RibbonPull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RibbonPull.h; sourceTree = "<group>"; };
+		D850399B19ECBDC90046E04B /* RibbonPull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RibbonPull.m; sourceTree = "<group>"; };
+		D850399D19ECBF8D0046E04B /* RibbonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RibbonViewController.h; sourceTree = "<group>"; };
+		D850399E19ECBF8D0046E04B /* RibbonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RibbonViewController.m; sourceTree = "<group>"; };
+		D85039A119ECF79E0046E04B /* FindSubViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindSubViewViewController.h; sourceTree = "<group>"; };
+		D85039A219ECF79E0046E04B /* FindSubViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindSubViewViewController.m; sourceTree = "<group>"; };
+		D85522B919EE624700EA6783 /* KeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		D85522BA19EE624700EA6783 /* KeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		D85522BD19EE668600EA6783 /* Algeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Algeria.png; sourceTree = "<group>"; };
+		D85522BE19EE668600EA6783 /* Argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Argentina.png; sourceTree = "<group>"; };
+		D85522BF19EE668600EA6783 /* Chile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chile.png; sourceTree = "<group>"; };
+		D85522C019EE668600EA6783 /* CoteDIvoire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoteDIvoire.png; sourceTree = "<group>"; };
+		D86BA7CF19F74C010094EBB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D86BA7D219F74C580094EBB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D86BA7D419F74C620094EBB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D87A25D419D4FBA60067FD5A /* 核心开发手册.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "核心开发手册.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87A25D819D4FBA60067FD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D87A25D919D4FBA60067FD5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -75,6 +110,19 @@
 		D87A260619D5067B0067FD5A /* green-out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-out.png"; sourceTree = "<group>"; };
 		D87A260719D5067B0067FD5A /* red-in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-in.png"; sourceTree = "<group>"; };
 		D87A260819D5067B0067FD5A /* red-out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-out.png"; sourceTree = "<group>"; };
+		D88D913619F600C10078EB6B /* Touch1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Touch1ViewController.h; sourceTree = "<group>"; };
+		D88D913719F600C10078EB6B /* Touch1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Touch1ViewController.m; sourceTree = "<group>"; };
+		D88D913919F600DF0078EB6B /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		D88D913A19F600DF0078EB6B /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragView.m; sourceTree = "<group>"; };
+		D894AAA419F62ED3002877BB /* Drag2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drag2View.h; sourceTree = "<group>"; };
+		D894AAA519F62ED3002877BB /* Drag2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drag2View.m; sourceTree = "<group>"; };
+		D894AAA719F634A6002877BB /* Touch2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Touch2ViewController.h; sourceTree = "<group>"; };
+		D894AAA819F634A6002877BB /* Touch2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Touch2ViewController.m; sourceTree = "<group>"; };
+		D894AAAA19F634E7002877BB /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun.png; path = ../sun.png; sourceTree = "<group>"; };
+		D89DF64719EF5DC10029D5C6 /* ToolViewEmotion_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewEmotion_ios7@2x.png"; sourceTree = "<group>"; };
+		D89DF64819EF5DC10029D5C6 /* ToolViewInputVoice_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputVoice_ios7@2x.png"; sourceTree = "<group>"; };
+		D89DF64919EF5DC10029D5C6 /* ToolViewKeyboard_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewKeyboard_ios7@2x.png"; sourceTree = "<group>"; };
+		D89DF64A19EF5DC10029D5C6 /* TypeSelectorBtn_Black_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeSelectorBtn_Black_ios7@2x.png"; sourceTree = "<group>"; };
 		D8AA752B19D540040058C50F /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
 		D8AA752C19D540040058C50F /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
 		D8AA752E19D540E40058C50F /* DiySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiySlider.h; sourceTree = "<group>"; };
@@ -91,6 +139,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86BA7D519F74C620094EBB5 /* CoreGraphics.framework in Frameworks */,
+				D86BA7D319F74C580094EBB5 /* Foundation.framework in Frameworks */,
+				D86BA7D019F74C010094EBB5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,12 +205,64 @@
 			name = image;
 			sourceTree = "<group>";
 		};
+		D850399919ECB5E40046E04B /* 拉丝带 */ = {
+			isa = PBXGroup;
+			children = (
+				D850399A19ECBDC90046E04B /* RibbonPull.h */,
+				D850399B19ECBDC90046E04B /* RibbonPull.m */,
+				D850399D19ECBF8D0046E04B /* RibbonViewController.h */,
+				D850399E19ECBF8D0046E04B /* RibbonViewController.m */,
+			);
+			name = "拉丝带";
+			sourceTree = "<group>";
+		};
+		D85039A019ECF7520046E04B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				D85039A119ECF79E0046E04B /* FindSubViewViewController.h */,
+				D85039A219ECF79E0046E04B /* FindSubViewViewController.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		D85522B819EE623700EA6783 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				D89DF64619EF5D9F0029D5C6 /* New Group */,
+				D85522B919EE624700EA6783 /* KeyboardViewController.h */,
+				D85522BA19EE624700EA6783 /* KeyboardViewController.m */,
+			);
+			name = "New Group1";
+			sourceTree = "<group>";
+		};
+		D85522BC19EE664D00EA6783 /* Flags */ = {
+			isa = PBXGroup;
+			children = (
+				D85522BD19EE668600EA6783 /* Algeria.png */,
+				D85522BE19EE668600EA6783 /* Argentina.png */,
+				D85522BF19EE668600EA6783 /* Chile.png */,
+				D85522C019EE668600EA6783 /* CoteDIvoire.png */,
+			);
+			name = Flags;
+			sourceTree = "<group>";
+		};
+		D86BA7D119F74C1A0094EBB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D86BA7D419F74C620094EBB5 /* CoreGraphics.framework */,
+				D86BA7D219F74C580094EBB5 /* Foundation.framework */,
+				D86BA7CF19F74C010094EBB5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D87A25CB19D4FBA60067FD5A = {
 			isa = PBXGroup;
 			children = (
 				D87A25D619D4FBA60067FD5A /* 核心开发手册 */,
 				D87A25F019D4FBA60067FD5A /* 核心开发手册Tests */,
 				D87A25D519D4FBA60067FD5A /* Products */,
+				D86BA7D119F74C1A0094EBB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +278,7 @@
 		D87A25D619D4FBA60067FD5A /* 核心开发手册 */ = {
 			isa = PBXGroup;
 			children = (
+				D85522BC19EE664D00EA6783 /* Flags */,
 				D83FE90819E8C3F7002F859B /* Controller */,
 				D8FB109519E7C2110007B700 /* 目录 */,
 				D87A25E119D4FBA60067FD5A /* Main.storyboard */,
@@ -234,6 +338,40 @@
 			name = Art;
 			sourceTree = "<group>";
 		};
+		D88D913519F600970078EB6B /* 触摸1 */ = {
+			isa = PBXGroup;
+			children = (
+				D88D913619F600C10078EB6B /* Touch1ViewController.h */,
+				D88D913719F600C10078EB6B /* Touch1ViewController.m */,
+				D88D913919F600DF0078EB6B /* DragView.h */,
+				D88D913A19F600DF0078EB6B /* DragView.m */,
+			);
+			name = "触摸1";
+			sourceTree = "<group>";
+		};
+		D894AAA319F62EA9002877BB /* 触摸2 */ = {
+			isa = PBXGroup;
+			children = (
+				D894AAAA19F634E7002877BB /* sun.png */,
+				D894AAA419F62ED3002877BB /* Drag2View.h */,
+				D894AAA519F62ED3002877BB /* Drag2View.m */,
+				D894AAA719F634A6002877BB /* Touch2ViewController.h */,
+				D894AAA819F634A6002877BB /* Touch2ViewController.m */,
+			);
+			name = "触摸2";
+			sourceTree = "<group>";
+		};
+		D89DF64619EF5D9F0029D5C6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				D89DF64719EF5DC10029D5C6 /* ToolViewEmotion_ios7@2x.png */,
+				D89DF64819EF5DC10029D5C6 /* ToolViewInputVoice_ios7@2x.png */,
+				D89DF64919EF5DC10029D5C6 /* ToolViewKeyboard_ios7@2x.png */,
+				D89DF64A19EF5DC10029D5C6 /* TypeSelectorBtn_Black_ios7@2x.png */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		D8AA752A19D53E680058C50F /* Slider */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,12 +404,17 @@
 		D8FB109519E7C2110007B700 /* 目录 */ = {
 			isa = PBXGroup;
 			children = (
+				D894AAA319F62EA9002877BB /* 触摸2 */,
+				D88D913519F600970078EB6B /* 触摸1 */,
+				D85039A019ECF7520046E04B /* New Group */,
 				D8FB109119E7AAAA0007B700 /* Class */,
-				D83FE91119E92423002F859B /* 评星 */,
 				D83FE90D19E90540002F859B /* Rect测试 */,
 				D87A25FD19D503620067FD5A /* 动画按键 */,
 				D8AA752A19D53E680058C50F /* Slider */,
 				D83FE90919E8C73C002F859B /* 警告框 */,
+				D83FE91119E92423002F859B /* 评星 */,
+				D850399919ECB5E40046E04B /* 拉丝带 */,
+				D85522B819EE623700EA6783 /* New Group1 */,
 				D8FB108E19E786BB0007B700 /* ContentsViewController.h */,
 				D8FB108F19E786BB0007B700 /* ContentsViewController.m */,
 			);
@@ -358,14 +501,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89DF64B19EF5DC10029D5C6 /* ToolViewEmotion_ios7@2x.png in Resources */,
 				D87A260B19D5067B0067FD5A /* red-in.png in Resources */,
+				D89DF64E19EF5DC10029D5C6 /* TypeSelectorBtn_Black_ios7@2x.png in Resources */,
+				D85522C119EE668600EA6783 /* Algeria.png in Resources */,
+				D85522C319EE668600EA6783 /* Chile.png in Resources */,
+				D85522C419EE668600EA6783 /* CoteDIvoire.png in Resources */,
 				D8AA753319D55BC00058C50F /* Switzerland.png in Resources */,
+				D89DF64D19EF5DC10029D5C6 /* ToolViewKeyboard_ios7@2x.png in Resources */,
 				D83FE91819E92543002F859B /* Star-White-Half.png in Resources */,
+				D894AAAB19F634E7002877BB /* sun.png in Resources */,
 				D87A260919D5067B0067FD5A /* green-in.png in Resources */,
 				D87A260C19D5067B0067FD5A /* red-out.png in Resources */,
 				D87A260A19D5067B0067FD5A /* green-out.png in Resources */,
 				D87A25E319D4FBA60067FD5A /* Main.storyboard in Resources */,
+				D89DF64C19EF5DC10029D5C6 /* ToolViewInputVoice_ios7@2x.png in Resources */,
 				D87A25E819D4FBA60067FD5A /* LaunchScreen.xib in Resources */,
+				D85522C219EE668600EA6783 /* Argentina.png in Resources */,
 				D87A25E519D4FBA60067FD5A /* Images.xcassets in Resources */,
 				D83FE91919E92543002F859B /* Star-White.png in Resources */,
 			);
@@ -385,18 +537,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85522BB19EE624700EA6783 /* KeyboardViewController.m in Sources */,
 				D8FB109019E786BB0007B700 /* ContentsViewController.m in Sources */,
 				D83FE90C19E8C76B002F859B /* AlertViewController.m in Sources */,
 				D87A260119D503960067FD5A /* ButtonViewController.m in Sources */,
 				D8425A9319EBA99B0070EAA1 /* StarRankViewController.m in Sources */,
 				D8AA752D19D540040058C50F /* SliderViewController.m in Sources */,
 				D8AA753019D540E40058C50F /* DiySlider.m in Sources */,
+				D88D913B19F600DF0078EB6B /* DragView.m in Sources */,
 				D87A25E019D4FBA60067FD5A /* ViewController.m in Sources */,
 				D8FB109419E7AADD0007B700 /* ClassIndex.m in Sources */,
 				D87A260419D504E50067FD5A /* AnimateButton.m in Sources */,
+				D88D913819F600C10078EB6B /* Touch1ViewController.m in Sources */,
 				D87A25DD19D4FBA60067FD5A /* AppDelegate.m in Sources */,
+				D894AAA919F634A6002877BB /* Touch2ViewController.m in Sources */,
+				D850399C19ECBDC90046E04B /* RibbonPull.m in Sources */,
+				D85039A319ECF79E0046E04B /* FindSubViewViewController.m in Sources */,
 				D87A25DA19D4FBA60067FD5A /* main.m in Sources */,
 				D83FE91019E90559002F859B /* RectViewController.m in Sources */,
+				D894AAA619F62ED3002877BB /* Drag2View.m in Sources */,
+				D850399F19ECBF8D0046E04B /* RibbonViewController.m in Sources */,
 				D83FE91419E9243E002F859B /* StarRank.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,7 +633,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -508,7 +668,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -520,7 +680,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "核心开发手册/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -532,7 +692,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "核心开发手册/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;

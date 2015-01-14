@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D86FC0B019F9FD4D008EB045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FC0AF19F9FD4D008EB045 /* main.m */; };
+		D86FC0B319F9FD4D008EB045 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FC0B219F9FD4D008EB045 /* AppDelegate.m */; };
+		D86FC0B619F9FD4D008EB045 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FC0B519F9FD4D008EB045 /* MainViewController.m */; };
+		D86FC0B919F9FD4D008EB045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86FC0B719F9FD4D008EB045 /* Main.storyboard */; };
+		D86FC0BB19F9FD4D008EB045 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86FC0BA19F9FD4D008EB045 /* Images.xcassets */; };
+		D86FC0BE19F9FD4D008EB045 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D86FC0BC19F9FD4D008EB045 /* LaunchScreen.xib */; };
+		D86FC0CA19F9FD4D008EB045 /* EZSliderViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FC0C919F9FD4D008EB045 /* EZSliderViewControllerTests.m */; };
+		D86FC0D619F9FD81008EB045 /* EZSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FC0D519F9FD81008EB045 /* EZSideViewController.m */; };
+		D871A0E919FE3D7C00851BD9 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D871A0E819FE3D7C00851BD9 /* LeftViewController.m */; };
+		D871A0EC19FE3DC400851BD9 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D871A0EB19FE3DC400851BD9 /* RightViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D86FC0C419F9FD4D008EB045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D86FC0A219F9FD4D008EB045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D86FC0A919F9FD4D008EB045;
+			remoteInfo = EZSliderViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D86FC0AA19F9FD4D008EB045 /* EZSliderViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZSliderViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86FC0AE19F9FD4D008EB045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86FC0AF19F9FD4D008EB045 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D86FC0B119F9FD4D008EB045 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D86FC0B219F9FD4D008EB045 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D86FC0B419F9FD4D008EB045 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D86FC0B519F9FD4D008EB045 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D86FC0B819F9FD4D008EB045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D86FC0BA19F9FD4D008EB045 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D86FC0BD19F9FD4D008EB045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D86FC0C319F9FD4D008EB045 /* EZSliderViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZSliderViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86FC0C819F9FD4D008EB045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86FC0C919F9FD4D008EB045 /* EZSliderViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZSliderViewControllerTests.m; sourceTree = "<group>"; };
+		D86FC0D419F9FD81008EB045 /* EZSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZSideViewController.h; sourceTree = "<group>"; };
+		D86FC0D519F9FD81008EB045 /* EZSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZSideViewController.m; sourceTree = "<group>"; };
+		D871A0E719FE3D7C00851BD9 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		D871A0E819FE3D7C00851BD9 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		D871A0EA19FE3DC400851BD9 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		D871A0EB19FE3DC400851BD9 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D86FC0A719F9FD4D008EB045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86FC0C019F9FD4D008EB045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D86FC0A119F9FD4D008EB045 = {
+			isa = PBXGroup;
+			children = (
+				D86FC0AC19F9FD4D008EB045 /* EZSliderViewController */,
+				D86FC0C619F9FD4D008EB045 /* EZSliderViewControllerTests */,
+				D86FC0AB19F9FD4D008EB045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D86FC0AB19F9FD4D008EB045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D86FC0AA19F9FD4D008EB045 /* EZSliderViewController.app */,
+				D86FC0C319F9FD4D008EB045 /* EZSliderViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D86FC0AC19F9FD4D008EB045 /* EZSliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D86FC0D319F9FD57008EB045 /* EZSliderVC */,
+				D8A50C0D19FF4973001F1DFC /* Nav */,
+				D86FC0B119F9FD4D008EB045 /* AppDelegate.h */,
+				D86FC0B219F9FD4D008EB045 /* AppDelegate.m */,
+				D86FC0BA19F9FD4D008EB045 /* Images.xcassets */,
+				D86FC0BC19F9FD4D008EB045 /* LaunchScreen.xib */,
+				D86FC0AD19F9FD4D008EB045 /* Supporting Files */,
+			);
+			path = EZSliderViewController;
+			sourceTree = "<group>";
+		};
+		D86FC0AD19F9FD4D008EB045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D86FC0AE19F9FD4D008EB045 /* Info.plist */,
+				D86FC0AF19F9FD4D008EB045 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D86FC0C619F9FD4D008EB045 /* EZSliderViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D86FC0C919F9FD4D008EB045 /* EZSliderViewControllerTests.m */,
+				D86FC0C719F9FD4D008EB045 /* Supporting Files */,
+			);
+			path = EZSliderViewControllerTests;
+			sourceTree = "<group>";
+		};
+		D86FC0C719F9FD4D008EB045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D86FC0C819F9FD4D008EB045 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D86FC0D319F9FD57008EB045 /* EZSliderVC */ = {
+			isa = PBXGroup;
+			children = (
+				D86FC0D419F9FD81008EB045 /* EZSideViewController.h */,
+				D86FC0D519F9FD81008EB045 /* EZSideViewController.m */,
+			);
+			name = EZSliderVC;
+			sourceTree = "<group>";
+		};
+		D8A50C0D19FF4973001F1DFC /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				D86FC0B419F9FD4D008EB045 /* MainViewController.h */,
+				D86FC0B519F9FD4D008EB045 /* MainViewController.m */,
+				D871A0EA19FE3DC400851BD9 /* RightViewController.h */,
+				D871A0EB19FE3DC400851BD9 /* RightViewController.m */,
+				D871A0E719FE3D7C00851BD9 /* LeftViewController.h */,
+				D871A0E819FE3D7C00851BD9 /* LeftViewController.m */,
+				D86FC0B719F9FD4D008EB045 /* Main.storyboard */,
+			);
+			name = Nav;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D86FC0A919F9FD4D008EB045 /* EZSliderViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86FC0CD19F9FD4D008EB045 /* Build configuration list for PBXNativeTarget "EZSliderViewController" */;
+			buildPhases = (
+				D86FC0A619F9FD4D008EB045 /* Sources */,
+				D86FC0A719F9FD4D008EB045 /* Frameworks */,
+				D86FC0A819F9FD4D008EB045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZSliderViewController;
+			productName = EZSliderViewController;
+			productReference = D86FC0AA19F9FD4D008EB045 /* EZSliderViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D86FC0C219F9FD4D008EB045 /* EZSliderViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86FC0D019F9FD4D008EB045 /* Build configuration list for PBXNativeTarget "EZSliderViewControllerTests" */;
+			buildPhases = (
+				D86FC0BF19F9FD4D008EB045 /* Sources */,
+				D86FC0C019F9FD4D008EB045 /* Frameworks */,
+				D86FC0C119F9FD4D008EB045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D86FC0C519F9FD4D008EB045 /* PBXTargetDependency */,
+			);
+			name = EZSliderViewControllerTests;
+			productName = EZSliderViewControllerTests;
+			productReference = D86FC0C319F9FD4D008EB045 /* EZSliderViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D86FC0A219F9FD4D008EB045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Joe;
+				TargetAttributes = {
+					D86FC0A919F9FD4D008EB045 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D86FC0C219F9FD4D008EB045 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D86FC0A919F9FD4D008EB045;
+					};
+				};
+			};
+			buildConfigurationList = D86FC0A519F9FD4D008EB045 /* Build configuration list for PBXProject "EZSliderViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D86FC0A119F9FD4D008EB045;
+			productRefGroup = D86FC0AB19F9FD4D008EB045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D86FC0A919F9FD4D008EB045 /* EZSliderViewController */,
+				D86FC0C219F9FD4D008EB045 /* EZSliderViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D86FC0A819F9FD4D008EB045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86FC0B919F9FD4D008EB045 /* Main.storyboard in Resources */,
+				D86FC0BE19F9FD4D008EB045 /* LaunchScreen.xib in Resources */,
+				D86FC0BB19F9FD4D008EB045 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86FC0C119F9FD4D008EB045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D86FC0A619F9FD4D008EB045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86FC0D619F9FD81008EB045 /* EZSideViewController.m in Sources */,
+				D871A0E919FE3D7C00851BD9 /* LeftViewController.m in Sources */,
+				D86FC0B619F9FD4D008EB045 /* MainViewController.m in Sources */,
+				D86FC0B319F9FD4D008EB045 /* AppDelegate.m in Sources */,
+				D86FC0B019F9FD4D008EB045 /* main.m in Sources */,
+				D871A0EC19FE3DC400851BD9 /* RightViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86FC0BF19F9FD4D008EB045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86FC0CA19F9FD4D008EB045 /* EZSliderViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D86FC0C519F9FD4D008EB045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D86FC0A919F9FD4D008EB045 /* EZSliderViewController */;
+			targetProxy = D86FC0C419F9FD4D008EB045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D86FC0B719F9FD4D008EB045 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D86FC0B819F9FD4D008EB045 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D86FC0BC19F9FD4D008EB045 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D86FC0BD19F9FD4D008EB045 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D86FC0CB19F9FD4D008EB045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D86FC0CC19F9FD4D008EB045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D86FC0CE19F9FD4D008EB045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZSliderViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D86FC0CF19F9FD4D008EB045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZSliderViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D86FC0D119F9FD4D008EB045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EZSliderViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZSliderViewController.app/EZSliderViewController";
+			};
+			name = Debug;
+		};
+		D86FC0D219F9FD4D008EB045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EZSliderViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZSliderViewController.app/EZSliderViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D86FC0A519F9FD4D008EB045 /* Build configuration list for PBXProject "EZSliderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86FC0CB19F9FD4D008EB045 /* Debug */,
+				D86FC0CC19F9FD4D008EB045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D86FC0CD19F9FD4D008EB045 /* Build configuration list for PBXNativeTarget "EZSliderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86FC0CE19F9FD4D008EB045 /* Debug */,
+				D86FC0CF19F9FD4D008EB045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D86FC0D019F9FD4D008EB045 /* Build configuration list for PBXNativeTarget "EZSliderViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86FC0D119F9FD4D008EB045 /* Debug */,
+				D86FC0D219F9FD4D008EB045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D86FC0A219F9FD4D008EB045 /* Project object */;
+}

@@ -11,6 +11,9 @@
 #define STAR_NUM    5
 #define STAR_WIDTH  26.0f   // 星标图尺寸
 #define STAR_SIZE   CGRectMake(0, 0, STAR_WIDTH, STAR_WIDTH)
+#define STAR_SPACE  1.3f    // 星标间隔比例  * STAR_WIDTH
+#define STARRANK_FRAME_WIDTH    STAR_WIDTH * ((STAR_NUM - 1) * STAR_SPACE + 2)
+#define STARRANK_FRAME_HEIGHT   34.0f
 
 // 展示的星
 #define OFF_ART     [UIImage imageNamed:@"Star-White-Half.png"]
@@ -19,6 +22,7 @@
 @implementation StarRank
 {
     NSInteger value;
+    BOOL isCommit;  // 是否提交。提交后不可修改
 }
 
 /*
@@ -38,18 +42,18 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.frame = CGRectMake(0, 0, STAR_WIDTH * STAR_NUM * 1.4, 34.0f);
+        self.frame = CGRectMake(0, 0, STARRANK_FRAME_WIDTH, STARRANK_FRAME_HEIGHT);
         
         // 每个星的x偏移量
         CGFloat xAxisOffset = STAR_WIDTH;
 
         for (NSInteger i = 0; i < STAR_NUM; i++) {
             UIImageView *starImgView = [[UIImageView alloc] initWithFrame:STAR_SIZE];
-            starImgView.center = CGPointMake(xAxisOffset, 34.0f / 2);
+            starImgView.center = CGPointMake(xAxisOffset, STARRANK_FRAME_HEIGHT / 2);
             starImgView.image = OFF_ART;
             [self addSubview:starImgView];
             
-            xAxisOffset += 1.5f * STAR_WIDTH;
+            xAxisOffset += STAR_SPACE * STAR_WIDTH;
         }
     }
     
@@ -108,6 +112,10 @@
 - (BOOL)beginTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event
 {
     CGPoint touchPoint = [touch locationInView:self];
+    
+    if (isCommit) {
+        return NO;
+    }
 
     // 向TouchDown事件发送事件
     [self sendActionsForControlEvents:UIControlEventTouchDown];
@@ -141,6 +149,8 @@
     } else {
         [self sendActionsForControlEvents:UIControlEventTouchUpOutside];
     }
+    
+    isCommit = YES;
 }
 
 - (void) cancelTrackingWithEvent:(UIEvent *)event

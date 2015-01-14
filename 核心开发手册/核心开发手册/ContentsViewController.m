@@ -13,6 +13,12 @@
 #import "AlertViewController.h"
 #import "RectViewController.h"
 #import "StarRankViewController.h"
+#import "RibbonViewController.h"
+#import "FindSubViewViewController.h"
+#import "KeyboardViewController.h"
+#import "Touch1ViewController.h"
+#import "Touch2ViewController.h"
+
 
 #define CELL_ID @"Cell"
 
@@ -45,8 +51,13 @@
     ClassIndex *alertCls = [ClassIndex classIndexWithTitle:@"Alert样例" classObject:[AlertViewController class] identifier:@"AlertViewController"];
     ClassIndex *recCls = [ClassIndex classIndexWithTitle:@"Rect样例" classObject:[RectViewController class]];
     ClassIndex *rankCls = [ClassIndex classIndexWithTitle:@"评星样例" classObject:[StarRankViewController class] identifier:@"StarRankViewController"];
+    ClassIndex *ribbonCls = [ClassIndex classIndexWithTitle:@"丝带下拉样例" classObject:[RibbonViewController class]];
+    ClassIndex *findCls = [ClassIndex classIndexWithTitle:@"SubView样例" classObject:[FindSubViewViewController class] identifier:@"FindSubViewViewController"];
+    ClassIndex *kbCls = [ClassIndex classIndexWithTitle:@"Keyboard样例" classObject:[KeyboardViewController class]];
+    ClassIndex *touch1Cls = [ClassIndex classIndexWithTitle:@"触摸手势1" classObject:[Touch1ViewController class]];
+    ClassIndex *touch2Cls = [ClassIndex classIndexWithTitle:@"触摸手势2" classObject:[Touch2ViewController class]];
 
-    __classArray = @[buttonCls, sliderCls, alertCls, recCls, rankCls];
+    __classArray = @[buttonCls, sliderCls, alertCls, recCls, rankCls, ribbonCls, findCls, kbCls, touch1Cls, touch2Cls];
     
 }
 
